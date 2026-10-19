@@ -1,0 +1,741 @@
+{
+  "kaynak": "Kart verisi (hastaliklar.json: ilacKatmani.direncRiski + ilacGenel.kurallar) + K034 Ek-4 (PHI)",
+  "veriTuru": "kaynakli",
+  "sezonLimitiKurali": {
+    "aciklama": "FRAC/IRAC direnç yönetimi prensibi (kart verisinden): her etki mekanizması grubu sezonda mümkünse BİR kez kullanılır.",
+    "tekBolgeliLimit": 1,
+    "istisna": "Çok bölgeli (multi-site: M01 bakır, M02 kükürt, M03 ditiyokarbamat) ve biyolojik/doğal ürünler bu limite tabi değildir.",
+    "not": "Bu bir GRUP prensibidir, ürün etiketi limiti DEĞİLDİR. Ürün bazlı sezonluk maksimum uygulama sayısı ne Ek-4'te ne FRAC/IRAC kod listelerinde bulunur; ruhsatlı ürün etiketinden okunmalıdır."
+  },
+  "ardisiklikKurali": "Her uygulamada etki mekanizması grubu DEĞİŞTİRİLİR. Aynı grup ardışık uygulanmaz.",
+  "genelKurallar": [
+    "Her uygulamada etki mekanizması grubunu DEĞİŞTİR. Aynı grubu üst üste kullanma.",
+    "Mümkünse her grubu sezonda yalnızca bir kez kullan. İstisna: çok bölgeli (multi-site) ürünler (kükürt M02, bakır M01, ditiyokarbamat M03) ve biyolojik/doğal ürünler.",
+    "Tek bölgeli (single-site) ürünleri çok bölgeli bir ürünle karıştırarak (tank karışımı) uygulamak direnç gelişimini yavaşlatır.",
+    "Direnç şüphesi varsa aynı gruba ısrar etme; grup değiştir ve kültürel önlemleri artır.",
+    "Etiket dozunun altında kullanım direnç gelişimini HIZLANDIRIR. Doz düşürme bir tasarruf değildir.",
+    "Son ilaçlama–hasat aralığına (SİHA) mutlaka uy. Bu süre, kalıntının yasal sınırın altına inmesi için geçmesi gereken gün sayısıdır; hasat tarihini geriye doğru sayarak plan yap.",
+    "Sofralık ve kurutmalık üzümde ihracat yapılıyorsa alıcı ülkenin kalıntı limiti (MRL) Türkiye limitinden farklı olabilir — alıcıyla önceden teyit et."
+  ],
+  "etmenler": {
+    "bag-mildiyosu": {
+      "ad": "Bağ mildiyösü",
+      "sistem": "FRAC",
+      "gruplar": {
+        "M01": {
+          "ad": "Bakır bileşikleri",
+          "direncRiski": "Çok düşük",
+          "direncNotu": "Çok düşük",
+          "sezonLimiti": null,
+          "limitIstisnasi": "çok bölgeli",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "M03": {
+          "ad": "Ditiyokarbamatlar",
+          "direncRiski": "Çok düşük",
+          "direncNotu": "Çok düşük",
+          "sezonLimiti": null,
+          "limitIstisnasi": "çok bölgeli",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "M04": {
+          "ad": "Ftalimidler",
+          "direncRiski": "Çok düşük",
+          "direncNotu": "Çok düşük",
+          "sezonLimiti": null,
+          "limitIstisnasi": "çok bölgeli",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "4": {
+          "ad": "Fenilamid (asilalanin)",
+          "direncRiski": "Yüksek",
+          "direncNotu": "YÜKSEK",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 42,
+          "phiMax": 42,
+          "phiKaynak": "K034 Ek-4"
+        },
+        "40": {
+          "ad": "CAA (karboksilik asit amid)",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 10,
+          "phiMax": 28,
+          "phiKaynak": "K034 Ek-4"
+        },
+        "21": {
+          "ad": "QiI (Qi inhibitörü)",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "45": {
+          "ad": "QoSI",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 10,
+          "phiMax": 10,
+          "phiKaynak": "K034 Ek-4"
+        },
+        "33/P07": {
+          "ad": "Fosfonatlar (fosforöz asit)",
+          "direncRiski": "Düşük",
+          "direncNotu": "Düşük",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "11": {
+          "ad": "QoI / strobilurin",
+          "direncRiski": "Yüksek",
+          "direncNotu": "YÜKSEK — direnç yaygın",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 7,
+          "phiMax": 21,
+          "phiKaynak": "K034 Ek-4"
+        }
+      },
+      "uygulamaAraligi": {
+        "gunMin": 7,
+        "gunMax": 10,
+        "aciklama": "Koruyucu fungisitler yeni büyümeyi koruyamaz; düzenli aralıkla tekrar gerekir. Hastalık baskısı yüksekse 7, düşükse 10-14 güne uzayabilir.",
+        "kaynak": "CropLife Australia bağ mildiyösü direnç yönetimi; üniversite extension bağ fungisit rehberleri",
+        "not": "Yağıştan sonra ve hızlı sürgün büyümesinde aralık kısalır. Etiket esastır."
+      }
+    },
+    "bag-kullemesi": {
+      "ad": "Bağ küllemesi",
+      "sistem": "FRAC",
+      "gruplar": {
+        "M02": {
+          "ad": "Kükürt (inorganik, çok bölgeli)",
+          "direncRiski": "Çok düşük",
+          "direncNotu": "Çok düşük",
+          "sezonLimiti": null,
+          "limitIstisnasi": "çok bölgeli",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "3": {
+          "ad": "DMI / triazol (sterol biyosentez engelleyici)",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 14,
+          "phiMax": 21,
+          "phiKaynak": "K034 Ek-4"
+        },
+        "13": {
+          "ad": "Kinolin (aza-naftalen)",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 28,
+          "phiMax": 28,
+          "phiKaynak": "K034 Ek-4"
+        },
+        "U6": {
+          "ad": "Fenil-asetamid",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "7": {
+          "ad": "SDHI (süksinat dehidrogenaz engelleyici)",
+          "direncRiski": "Orta-Yüksek",
+          "direncNotu": "Orta-Yüksek",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 14,
+          "phiMax": 28,
+          "phiKaynak": "K034 Ek-4"
+        },
+        "11": {
+          "ad": "QoI / strobilurin",
+          "direncRiski": "Yüksek",
+          "direncNotu": "YÜKSEK — direnç yaygın",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 14,
+          "phiMax": 35,
+          "phiKaynak": "K034 Ek-4"
+        },
+        "BM01/BM02/NC": {
+          "ad": "Biyolojik ve doğal ürünler",
+          "direncRiski": "Çok düşük",
+          "direncNotu": "Çok düşük",
+          "sezonLimiti": null,
+          "limitIstisnasi": "biyolojik/doğal",
+          "phiMin": 14,
+          "phiMax": 14,
+          "phiKaynak": "K034 Ek-4"
+        }
+      },
+      "uygulamaAraligi": {
+        "gunMin": 7,
+        "gunMax": 10,
+        "aciklama": "Kükürt yüksek dozda ve kısa aralıkta (7 gün) çok etkilidir; düşük doz/uzun aralıkta etkisi düşer. Sistemik ürünlerde 10-14 güne uzayabilir.",
+        "kaynak": "Üniversite extension bağ külleme fungisit rehberleri (UC IPM, Virginia Tech)",
+        "not": "Sürgün 15-20cm'den itibaren başlar; tane ben düşene kadar sürer. Etiket esastır."
+      }
+    },
+    "salkim-guvesi": {
+      "ad": "Salkım güvesi",
+      "sistem": "IRAC",
+      "gruplar": {
+        "11A": {
+          "ad": "Bacillus thuringiensis",
+          "direncRiski": "Düşük",
+          "direncNotu": "Düşük",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "18": {
+          "ad": "Diaçilhidrazin (kabuk değişimi hızlandırıcı, IGR)",
+          "direncRiski": "Orta",
+          "direncNotu": "Düşük-Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 7,
+          "phiMax": 21,
+          "phiKaynak": "K034 Ek-4"
+        },
+        "28": {
+          "ad": "Diamid (ryanodin reseptörü modülatörü)",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 14,
+          "phiMax": 28,
+          "phiKaynak": "K034 Ek-4"
+        },
+        "5": {
+          "ad": "Spinosin",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 7,
+          "phiMax": 7,
+          "phiKaynak": "K034 Ek-4"
+        },
+        "6": {
+          "ad": "Avermektin",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "3A": {
+          "ad": "Piretroit",
+          "direncRiski": "Yüksek",
+          "direncNotu": "Yüksek",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 7,
+          "phiMax": 14,
+          "phiKaynak": "K034 Ek-4"
+        }
+      },
+      "uygulamaAraligi": {
+        "gunMin": 7,
+        "gunMax": 10,
+        "aciklama": "Böcekte uygulama döle bağlıdır: her döl için larva çıkışı başladığında uygulanır. Tuzakta uçuş piki + yumurta/larva görülünce ilaçlama; etki süresi bitince tekrar.",
+        "kaynak": "IPM salkım güvesi mücadele takvimi (döl-esaslı)",
+        "not": "Feromon çiftleşme engelleme kullanılıyorsa kimyasal ihtiyacı azalır. Etiket esastır."
+      }
+    },
+    "bagda-kursuni-kuf": {
+      "ad": "Bağda kurşuni küf",
+      "sistem": "FRAC",
+      "gruplar": {
+        "9": {
+          "ad": "Anilinopirimidin",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 3,
+          "phiMax": 21,
+          "phiKaynak": "K034 Ek-4"
+        },
+        "12": {
+          "ad": "Fenilpirol",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 3,
+          "phiMax": 7,
+          "phiKaynak": "K034 Ek-4"
+        },
+        "17": {
+          "ad": "Hidroksianilid",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 7,
+          "phiMax": 7,
+          "phiKaynak": "K034 Ek-4"
+        },
+        "7": {
+          "ad": "SDHI",
+          "direncRiski": "Orta-Yüksek",
+          "direncNotu": "Orta-Yüksek",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "2": {
+          "ad": "Dikarboksimid",
+          "direncRiski": "Yüksek",
+          "direncNotu": "Yüksek",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "11": {
+          "ad": "QoI / strobilurin",
+          "direncRiski": "Yüksek",
+          "direncNotu": "YÜKSEK — direnç yaygın",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "BM02": {
+          "ad": "Biyolojik (Bacillus vb.)",
+          "direncRiski": "Çok düşük",
+          "direncNotu": "Çok düşük",
+          "sezonLimiti": null,
+          "limitIstisnasi": "biyolojik/doğal",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        }
+      }
+    },
+    "bag-yaprakuyuzu": {
+      "ad": "Bağ yaprakuyuzu",
+      "sistem": "IRAC / FRAC(M02)",
+      "gruplar": {
+        "M02": {
+          "ad": "Kükürt",
+          "direncRiski": "Çok düşük",
+          "direncNotu": "Çok düşük",
+          "sezonLimiti": null,
+          "limitIstisnasi": "çok bölgeli",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        }
+      }
+    },
+    "unlubit": {
+      "ad": "Unlubit",
+      "sistem": "IRAC",
+      "gruplar": {
+        "23": {
+          "ad": "Tetronik/tetramik asit",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 14,
+          "phiMax": 14,
+          "phiKaynak": "K034 Ek-4"
+        },
+        "9B/9D": {
+          "ad": "Beslenme engelleyiciler",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "4A": {
+          "ad": "Neonikotinoid",
+          "direncRiski": "Orta-Yüksek",
+          "direncNotu": "Orta-Yüksek",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "BM": {
+          "ad": "Doğal düşman koruma / biyolojik",
+          "direncRiski": "Çok düşük",
+          "direncNotu": "Çok düşük",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        }
+      }
+    },
+    "bag-antraknozu": {
+      "ad": "Bağ Antraknozu",
+      "sistem": "FRAC",
+      "gruplar": {
+        "M01": {
+          "ad": "Bakır bileşikleri",
+          "direncRiski": "Çok düşük",
+          "direncNotu": "Çok düşük",
+          "sezonLimiti": null,
+          "limitIstisnasi": "çok bölgeli",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "M03": {
+          "ad": "Ditiyokarbamatlar",
+          "direncRiski": "Çok düşük",
+          "direncNotu": "Çok düşük",
+          "sezonLimiti": null,
+          "limitIstisnasi": "çok bölgeli",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "M04": {
+          "ad": "Ftalimidler",
+          "direncRiski": "Çok düşük",
+          "direncNotu": "Çok düşük",
+          "sezonLimiti": null,
+          "limitIstisnasi": "çok bölgeli",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "3": {
+          "ad": "DMI / triazol",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        }
+      }
+    },
+    "olu-kol-surgun-kurumasi": {
+      "ad": "Ölü Kol (Sürgün Kuruması)",
+      "sistem": "FRAC",
+      "gruplar": {
+        "M01": {
+          "ad": "Bakır bileşikleri",
+          "direncRiski": "Çok düşük",
+          "direncNotu": "Çok düşük",
+          "sezonLimiti": null,
+          "limitIstisnasi": "çok bölgeli",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "M03": {
+          "ad": "Ditiyokarbamatlar",
+          "direncRiski": "Çok düşük",
+          "direncNotu": "Çok düşük",
+          "sezonLimiti": null,
+          "limitIstisnasi": "çok bölgeli",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "M04": {
+          "ad": "Ftalimidler",
+          "direncRiski": "Çok düşük",
+          "direncNotu": "Çok düşük",
+          "sezonLimiti": null,
+          "limitIstisnasi": "çok bölgeli",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        }
+      }
+    },
+    "ikinoktali-kirmiziorumcek": {
+      "ad": "İkinoktalı Kırmızıörümcek",
+      "sistem": "IRAC",
+      "gruplar": {
+        "UN (kükürt)": {
+          "ad": "Kükürt",
+          "direncRiski": "Çok düşük",
+          "direncNotu": "Çok düşük",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "10A/10B": {
+          "ad": "Mit büyüme engelleyiciler",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 7,
+          "phiMax": 56,
+          "phiKaynak": "K034 Ek-4"
+        },
+        "6": {
+          "ad": "Avermektin",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "20D": {
+          "ad": "Bifenazat",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 14,
+          "phiMax": 14,
+          "phiKaynak": "K034 Ek-4"
+        },
+        "21A": {
+          "ad": "METI akarisitler",
+          "direncRiski": "Orta-Yüksek",
+          "direncNotu": "Orta-Yüksek",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 14,
+          "phiMax": 14,
+          "phiKaynak": "K034 Ek-4"
+        },
+        "23": {
+          "ad": "Tetronik/tetramik asit",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 14,
+          "phiMax": 14,
+          "phiKaynak": "K034 Ek-4"
+        }
+      }
+    },
+    "bag-thripsleri": {
+      "ad": "Bağ Thripsleri",
+      "sistem": "IRAC",
+      "gruplar": {
+        "5": {
+          "ad": "Spinosin",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 7,
+          "phiMax": 14,
+          "phiKaynak": "K034 Ek-4"
+        },
+        "6": {
+          "ad": "Avermektin",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "4A": {
+          "ad": "Neonikotinoid",
+          "direncRiski": "Orta-Yüksek",
+          "direncNotu": "Orta-Yüksek",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        }
+      }
+    },
+    "bag-maymuncuklari-ve-asma-hortumlubocegi": {
+      "ad": "Bağ Maymuncukları ve Asma Hortumluböceği",
+      "sistem": "IRAC",
+      "gruplar": {
+        "Mekanik": {
+          "ad": "Silikonize elyaf bandı",
+          "direncRiski": null,
+          "direncNotu": "Yok",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "3A": {
+          "ad": "Piretroit",
+          "direncRiski": "Orta-Yüksek",
+          "direncNotu": "Orta-Yüksek",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": 7,
+          "phiMax": 7,
+          "phiKaynak": "K034 Ek-4"
+        },
+        "4A": {
+          "ad": "Neonikotinoid",
+          "direncRiski": "Orta",
+          "direncNotu": "Orta",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        },
+        "Biyolojik": {
+          "ad": "Entomopatojen nematodlar (larvaya karşı)",
+          "direncRiski": "Çok düşük",
+          "direncNotu": "Çok düşük",
+          "sezonLimiti": 1,
+          "limitIstisnasi": null,
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynak": null
+        }
+      }
+    }
+  },
+  "caprazDirencAileleri": {
+    "_aciklama": "Aynı aile içindeki gruplar çapraz direnç gösterir — biri işe yaramazsa diğeri de yaramayabilir. Rotasyonda ardışık FARKLI aile seçilir. Kaynak: FRAC/IRAC MoA sınıflandırması.",
+    "aileler": [
+      {
+        "id": "QoI-strobilurin",
+        "sistem": "FRAC",
+        "kodlar": [
+          "11"
+        ],
+        "not": "QoI/strobilurinler (FRAC 11) kendi içinde tam çapraz dirençli. Bir strobiluruna direnç, hepsine direnç demektir. En yüksek direnç riski gruplarından."
+      },
+      {
+        "id": "DMI-triazol",
+        "sistem": "FRAC",
+        "kodlar": [
+          "3"
+        ],
+        "not": "Triazoller (FRAC 3, DMI) kısmi çapraz direnç gösterir. Bir triazole direnç eğilimi diğerlerini de etkileyebilir."
+      },
+      {
+        "id": "SDHI",
+        "sistem": "FRAC",
+        "kodlar": [
+          "7"
+        ],
+        "not": "SDHI'lar (FRAC 7) kendi içinde çapraz dirençli."
+      },
+      {
+        "id": "fenilamid",
+        "sistem": "FRAC",
+        "kodlar": [
+          "4"
+        ],
+        "not": "Fenilamidler (FRAC 4, metalaxyl grubu) yüksek çapraz direnç. HER ZAMAN karışım halinde, sezonda sınırlı."
+      },
+      {
+        "id": "CAA",
+        "sistem": "FRAC",
+        "kodlar": [
+          "40"
+        ],
+        "not": "Karboksilik asit amidler (FRAC 40, CAA) kendi içinde çapraz dirençli."
+      },
+      {
+        "id": "diamid",
+        "sistem": "IRAC",
+        "kodlar": [
+          "28"
+        ],
+        "not": "Diamidler (IRAC 28, chlorantraniliprole/flubendiamide) çapraz dirençli."
+      },
+      {
+        "id": "piretroid",
+        "sistem": "IRAC",
+        "kodlar": [
+          "3A"
+        ],
+        "not": "Piretroidler (IRAC 3A) kendi içinde çapraz dirençli. Yüksek direnç riski."
+      }
+    ]
+  },
+  "ozelDirencKurallari": {
+    "_aciklama": "Belirli grupların özel kullanım limitleri. Kaynak: CropLife Australia bağ direnç yönetimi.",
+    "kurallar": [
+      {
+        "kod": "4",
+        "sistem": "FRAC",
+        "kural": "Her zaman karışım halinde uygulanır; sadece hastalık koşulları uygunken. Sezonda en fazla 2-3 kez.",
+        "maxSezon": 3,
+        "karisimZorunlu": true
+      },
+      {
+        "kod": "49",
+        "sistem": "FRAC",
+        "kural": "Sezonda en fazla 2 kez; her 3 uygulamadan en fazla 1'i; farklı çapraz direnç grubundan ortakla karışım. Tekrar için arada en az 2 farklı grup.",
+        "maxSezon": 2,
+        "karisimZorunlu": true
+      },
+      {
+        "kod": "11",
+        "sistem": "FRAC",
+        "kural": "En fazla 2 ardışık uygulama; sonra farklı gruba geç. Yüksek direnç riski.",
+        "maxArdisik": 2
+      },
+      {
+        "kod": "40",
+        "sistem": "FRAC",
+        "kural": "En fazla 2 ardışık uygulama.",
+        "maxArdisik": 2
+      }
+    ]
+  }
+}

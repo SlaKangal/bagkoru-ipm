@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "dosya": "public/data/tahmin_uyari.json",
+    "aciklama": "İl/İlçe Tarım ve Orman Müdürlüklerinin sezon içi resmî tahmin-uyarı duyuruları (basında / sosyal medyada yayımlanan hali). Geçmiş sezon testinde 'gözlem' satırı olarak kullanılır: motor bu tarihleri görmeden karar üretir, sonra kıyaslanır. Tuzak sayımı verilmez; duyuru = erken uyarı istasyonu / tuzak / yumurta izlemesine dayalı resmî ilaçlama penceresi.",
+    "kaynak_notu": "Her kayıtta bağlantı vardır. Duyurunun kendisi resmî; haber/sosyal medya metni aracıdır — kaynakTuru alanı bunu belirtir (haber | sosyal-medya). İlçe müdürlüğü sayfasından teyit edilebilir.",
+    "guncelleme": "2026-09-16"
+  },
+  "duyurular": [
+    {
+      "il": "manisa", "ilce": "Sarıgöl", "yil": 2026, "etmenSlug": "salkim-guvesi", "dol": 2, "faz": "ovisit",
+      "baslangic": "2026-06-12", "bitis": "2026-06-14", "duyuruTarihi": "2026-06-11",
+      "kurum": "Sarıgöl İlçe Tarım ve Orman Müdürlüğü", "kaynakTuru": "haber",
+      "ozet": "Erken uyarı istasyonu verilerine dayanarak 2. nesle karşı yumurta (ovisit) ilaçlaması: 12–14 Haziran 2026. Mildiyö, unlu bit ve külleme için de mücadele ihmal edilmemeli.",
+      "kaynakUrl": "https://www.manisahaberleri.com/manisali-bagcilara-salkim-guvesi-uyarisi-1",
+      "ekKaynak": "https://www.manisadagundem.com/sarigolde-bagcilar-icin-salkim-guvesi-uyarisi"
+    },
+    {
+      "il": "manisa", "ilce": "Alaşehir", "yil": 2026, "etmenSlug": "salkim-guvesi", "dol": 2, "faz": "larvisit",
+      "baslangic": "2026-06-19", "bitis": "2026-06-21", "duyuruTarihi": null,
+      "kurum": "Alaşehir İlçe Tarım ve Orman Müdürlüğü", "kaynakTuru": "sosyal-medya",
+      "ozet": "2. nesil larvalarına (tırtıl/kurt) karşı ilaçlama: 19–21 Haziran 2026.",
+      "kaynakUrl": "https://www.facebook.com/groups/888503398386565/posts/2187689438467948/"
+    },
+    {
+      "il": "manisa", "ilce": "Alaşehir / Salihli / Sarıgöl", "yil": 2026, "etmenSlug": "salkim-guvesi", "dol": 3, "faz": "ovisit",
+      "baslangic": "2026-07-20", "bitis": "2026-07-22", "duyuruTarihi": "2026-07-19",
+      "kurum": "Alaşehir, Salihli ve Sarıgöl İlçe Tarım ve Orman Müdürlükleri (ortak uyarı)", "kaynakTuru": "haber",
+      "ozet": "3. nesle karşı erkenci bölgelerde yumurta (ovisit) ilaçlaması: 20–22 Temmuz 2026; külleme kontrolü ihmal edilmemeli.",
+      "kaynakUrl": "https://www.manisahaberleri.com/manisada-bag-ureticilerine-salkim-guvesi-uyarisi",
+      "ekKaynak": "https://manisahurhaber.com/haber/28374381/salihlide-bag-salkim-guvesi-uyarisi; https://www.manisakenthaberleri.com/salihlili-ureticilere-bag-salkim-guvesi-uyarisi; https://www.instagram.com/p/DbDRK8eFMfv/"
+    },
+    {
+      "il": "manisa", "ilce": "Sarıgöl", "yil": 2026, "etmenSlug": "salkim-guvesi", "dol": 3, "faz": "larvisit",
+      "baslangic": "2026-07-21", "bitis": "2026-07-23", "duyuruTarihi": "2026-07-20",
+      "kurum": "Sarıgöl İlçe Tarım ve Orman Müdürlüğü", "kaynakTuru": "haber",
+      "ozet": "3. nesil larva ilaçlaması: 21, 22, 23 Temmuz 2026. Külleme ve unlu bit için de tedbir.",
+      "kaynakUrl": "https://www.manisahaberx.com/sarigolde-salkim-guvesi-alarmi-takvim-netlesti"
+    },
+    {
+      "il": "manisa", "ilce": "Salihli", "yil": 2026, "etmenSlug": "salkim-guvesi", "dol": 3, "faz": "larvisit",
+      "baslangic": "2026-08-08", "bitis": "2026-08-10", "duyuruTarihi": "2026-08-07",
+      "kurum": "Salihli İlçe Tarım ve Orman Müdürlüğü", "kaynakTuru": "haber",
+      "ozet": "3. nesil çıkışları sürüyor; 8–10 Ağustos 2026 arasında ilaçlama; PHI'ye uyulmalı.",
+      "kaynakUrl": "https://www.manisaflashhaber.com/ureticilere-kritik-uyari-ilaclama-icin-bu-tarihlere-dikkat"
+    },
+    {
+      "il": "manisa", "ilce": "Salihli", "yil": 2026, "etmenSlug": "salkim-guvesi", "dol": 3, "faz": "larvisit",
+      "baslangic": "2026-08-20", "bitis": "2026-08-21", "duyuruTarihi": "2026-08-20",
+      "kurum": "Salihli İlçe Tarım ve Orman Müdürlüğü", "kaynakTuru": "haber",
+      "ozet": "Geç hasat yapacak üreticilere son 2 günlük kritik ek ilaçlama çağrısı (3. nesil çıkışlarının devamı). Hasat–ilaçlama aralığına (PHI) dikkat.",
+      "kaynakUrl": "https://www.manisadabugun.com/manisa/uzum-ureticilerine-son-ilaclama-uyarisi-h53275.html"
+    }
+  ]
+}

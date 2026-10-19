@@ -1,0 +1,1574 @@
+{
+  "_meta": {
+    "dosya": "public/data/yasakli_maddeler.json",
+    "kaynak": "T.C. Tarım ve Orman Bakanlığı BKÜ Veri Tabanı → Doküman → Yasaklı Aktif Maddeler",
+    "liste_tarihi": "2023-08-01",
+    "UYARI": "Bu liste 01.08.2023 tarihlidir. Güncel sürüm BKÜ'den indirilip liste_tarihi güncellenmelidir.",
+    "kayit_sayisi": 223,
+    "kullanim": "bku_tavsiye.json'daki her aktif_madde, aktif_madde_norm üzerinden bu listeye karşı kontrol edilir. Eşleşme varsa o tavsiye sezonluk plana GİRMEZ; kartta 'kullanımı sonlandırıldı, tarih: kullanim_son' olarak gösterilir.",
+    "eslesme_notu": "Karışım ürünlerde aktif maddelerden BİRİ bile yasaklıysa ürün elenir. Normalizasyon TR karakter + büyük harf; yine de yazım farkı olabilir, tam eşleşme yoksa insan kontrolü gerekir."
+  },
+  "maddeler": [
+    {
+      "aktif_madde": "1,3-DICHLOROPROPENE",
+      "aktif_madde_norm": "1,3-DICHLOROPROPENE",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "4-CPA (4-CHLOROPHENOXY ACETIC ACIDE)",
+      "aktif_madde_norm": "4-CPA (4-CHLOROPHENOXY ACETIC ACIDE)",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "ACEPHATE",
+      "aktif_madde_norm": "ACEPHATE",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "ACETOCHLOR",
+      "aktif_madde_norm": "ACETOCHLOR",
+      "ithalat_son": "2013-01-01",
+      "imalat_son": "2013-01-01",
+      "kullanim_son": "2014-12-31"
+    },
+    {
+      "aktif_madde": "ALACHLOR",
+      "aktif_madde_norm": "ALACHLOR",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "ALDICARB",
+      "aktif_madde_norm": "ALDICARB",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "AMINO ACIDE",
+      "aktif_madde_norm": "AMINO ACIDE",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "AMINO ACIDS: MİX",
+      "aktif_madde_norm": "AMINO ACIDS: MIX",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "AMINOTRIAZOLE",
+      "aktif_madde_norm": "AMINOTRIAZOLE",
+      "ithalat_son": "2020-06-30",
+      "imalat_son": "2020-07-31",
+      "kullanim_son": "2020-12-31"
+    },
+    {
+      "aktif_madde": "AMITRAZ",
+      "aktif_madde_norm": "AMITRAZ",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "AMMONIUM THIOCYANATE",
+      "aktif_madde_norm": "AMMONIUM THIOCYANATE",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "ANILOFOS",
+      "aktif_madde_norm": "ANILOFOS",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "ATCA",
+      "aktif_madde_norm": "ATCA",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "ATRAZINE",
+      "aktif_madde_norm": "ATRAZINE",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "AZINPHOS-METHYL",
+      "aktif_madde_norm": "AZINPHOS-METHYL",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "AZOCYCLOTIN",
+      "aktif_madde_norm": "AZOCYCLOTIN",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "BENFURACARB",
+      "aktif_madde_norm": "BENFURACARB",
+      "ithalat_son": "2011-06-30",
+      "imalat_son": "2011-06-30",
+      "kullanim_son": "2012-08-31"
+    },
+    {
+      "aktif_madde": "BENOMYL",
+      "aktif_madde_norm": "BENOMYL",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "BETA CYPERMETHRIN",
+      "aktif_madde_norm": "BETA CYPERMETHRIN",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "BIFENTHRIN",
+      "aktif_madde_norm": "BIFENTHRIN",
+      "ithalat_son": "2020-08-31",
+      "imalat_son": "2020-10-15",
+      "kullanim_son": "2021-09-30"
+    },
+    {
+      "aktif_madde": "BITERTANOL",
+      "aktif_madde_norm": "BITERTANOL",
+      "ithalat_son": "2011-06-30",
+      "imalat_son": "2011-06-30",
+      "kullanim_son": "2012-08-31"
+    },
+    {
+      "aktif_madde": "BNOA (BETA NAPHTHOXY ACETIC ACIDE)",
+      "aktif_madde_norm": "BNOA (BETA NAPHTHOXY ACETIC ACIDE)",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "BRODIFACOUM",
+      "aktif_madde_norm": "BRODIFACOUM",
+      "ithalat_son": "2011-06-30",
+      "imalat_son": "2011-06-30",
+      "kullanim_son": "2012-08-31"
+    },
+    {
+      "aktif_madde": "BROMACIL",
+      "aktif_madde_norm": "BROMACIL",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "BROMOPHOS",
+      "aktif_madde_norm": "BROMOPHOS",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "BROMOPHOS-ETHYL",
+      "aktif_madde_norm": "BROMOPHOS-ETHYL",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "BROMOPROPYLATE",
+      "aktif_madde_norm": "BROMOPROPYLATE",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "BRONOPOL",
+      "aktif_madde_norm": "BRONOPOL",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "BUTRALIN",
+      "aktif_madde_norm": "BUTRALIN",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "CADUSAFOS (AKA EBUFOS)",
+      "aktif_madde_norm": "CADUSAFOS (AKA EBUFOS)",
+      "ithalat_son": "2013-01-01",
+      "imalat_son": "2013-01-01",
+      "kullanim_son": "2014-12-31"
+    },
+    {
+      "aktif_madde": "CARBARYL",
+      "aktif_madde_norm": "CARBARYL",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "CARBENDAZIM",
+      "aktif_madde_norm": "CARBENDAZIM",
+      "ithalat_son": "2017-06-23",
+      "imalat_son": "2017-06-23",
+      "kullanim_son": "2018-01-01"
+    },
+    {
+      "aktif_madde": "CARBOFURAN",
+      "aktif_madde_norm": "CARBOFURAN",
+      "ithalat_son": "2011-06-30",
+      "imalat_son": "2011-06-30",
+      "kullanim_son": "2012-08-31"
+    },
+    {
+      "aktif_madde": "CARBOSULFAN",
+      "aktif_madde_norm": "CARBOSULFAN",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "CHINOMETHIONAT (AKA QUINOMETHIONATE)",
+      "aktif_madde_norm": "CHINOMETHIONAT (AKA QUINOMETHIONATE)",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "CHLORFENAPYR",
+      "aktif_madde_norm": "CHLORFENAPYR",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "CHLORFENVINPHOS",
+      "aktif_madde_norm": "CHLORFENVINPHOS",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "CHLORFLUAZURON",
+      "aktif_madde_norm": "CHLORFLUAZURON",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "CHLORIDAZON",
+      "aktif_madde_norm": "CHLORIDAZON",
+      "ithalat_son": "2020-09-30",
+      "imalat_son": "2023-01-01",
+      "kullanim_son": "2023-09-30"
+    },
+    {
+      "aktif_madde": "CHLORONEB",
+      "aktif_madde_norm": "CHLORONEB",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "CHLOROPICRIN",
+      "aktif_madde_norm": "CHLOROPICRIN",
+      "ithalat_son": "2013-01-01",
+      "imalat_son": "2013-01-01",
+      "kullanim_son": "2014-12-31"
+    },
+    {
+      "aktif_madde": "CHLOROTHALONIL",
+      "aktif_madde_norm": "CHLOROTHALONIL",
+      "ithalat_son": "2020-12-31",
+      "imalat_son": "2021-02-15",
+      "kullanim_son": "2021-12-31"
+    },
+    {
+      "aktif_madde": "CHLORPROPHAM",
+      "aktif_madde_norm": "CHLORPROPHAM",
+      "ithalat_son": "2020-09-30",
+      "imalat_son": "2020-10-31",
+      "kullanim_son": "2022-12-31"
+    },
+    {
+      "aktif_madde": "CHLORPYRIFOS ETHYL",
+      "aktif_madde_norm": "CHLORPYRIFOS ETHYL",
+      "ithalat_son": "2016-04-08",
+      "imalat_son": "2016-04-30",
+      "kullanim_son": "2020-05-21"
+    },
+    {
+      "aktif_madde": "CHLORPYRIFOS METHYL",
+      "aktif_madde_norm": "CHLORPYRIFOS METHYL",
+      "ithalat_son": "2020-10-31",
+      "imalat_son": null,
+      "kullanim_son": "2021-12-31"
+    },
+    {
+      "aktif_madde": "CIS-ZEATIN",
+      "aktif_madde_norm": "CIS-ZEATIN",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "CLOTHIANIDIN",
+      "aktif_madde_norm": "CLOTHIANIDIN",
+      "ithalat_son": "2019-01-07",
+      "imalat_son": "2019-01-07",
+      "kullanim_son": "2019-07-31"
+    },
+    {
+      "aktif_madde": "COUMACHLOR",
+      "aktif_madde_norm": "COUMACHLOR",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "CYANAZINE",
+      "aktif_madde_norm": "CYANAZINE",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "CYANIDES: CALCIUM, HYDROGEN, SODIUM",
+      "aktif_madde_norm": "CYANIDES: CALCIUM, HYDROGEN, SODIUM",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "CYCLOATE",
+      "aktif_madde_norm": "CYCLOATE",
+      "ithalat_son": "2011-06-30",
+      "imalat_son": "2011-06-30",
+      "kullanim_son": "2012-08-31"
+    },
+    {
+      "aktif_madde": "CYCLOSULFAMURON",
+      "aktif_madde_norm": "CYCLOSULFAMURON",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "CYFLUTHRIN",
+      "aktif_madde_norm": "CYFLUTHRIN",
+      "ithalat_son": "2020-08-31",
+      "imalat_son": "2020-10-15",
+      "kullanim_son": "2021-09-30"
+    },
+    {
+      "aktif_madde": "CYHEXATIN",
+      "aktif_madde_norm": "CYHEXATIN",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "DESMEDIPHAM",
+      "aktif_madde_norm": "DESMEDIPHAM",
+      "ithalat_son": "2020-09-30",
+      "imalat_son": "2020-10-31",
+      "kullanim_son": "2023-08-01"
+    },
+    {
+      "aktif_madde": "DIAFENTHIURON",
+      "aktif_madde_norm": "DIAFENTHIURON",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "DIAZINON",
+      "aktif_madde_norm": "DIAZINON",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "DICHLOFLUANID",
+      "aktif_madde_norm": "DICHLOFLUANID",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "DICHLORVOS (DDVP)",
+      "aktif_madde_norm": "DICHLORVOS (DDVP)",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "DICOFOL",
+      "aktif_madde_norm": "DICOFOL",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "DIFENACOUM",
+      "aktif_madde_norm": "DIFENACOUM",
+      "ithalat_son": "2020-06-30",
+      "imalat_son": "2020-07-31",
+      "kullanim_son": "2020-12-31"
+    },
+    {
+      "aktif_madde": "DIFENZOQUAT",
+      "aktif_madde_norm": "DIFENZOQUAT",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "DIMETHENAMID",
+      "aktif_madde_norm": "DIMETHENAMID",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "DIMETHIPIN",
+      "aktif_madde_norm": "DIMETHIPIN",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "DIMETHOATE",
+      "aktif_madde_norm": "DIMETHOATE",
+      "ithalat_son": "2020-09-30",
+      "imalat_son": "2020-10-31",
+      "kullanim_son": "2023-08-01"
+    },
+    {
+      "aktif_madde": "DINICONAZOLE M",
+      "aktif_madde_norm": "DINICONAZOLE M",
+      "ithalat_son": "2012-08-31",
+      "imalat_son": "2012-08-31",
+      "kullanim_son": "2013-06-30"
+    },
+    {
+      "aktif_madde": "DINOCAP",
+      "aktif_madde_norm": "DINOCAP",
+      "ithalat_son": "2012-08-31",
+      "imalat_son": "2012-08-31",
+      "kullanim_son": "2013-06-30"
+    },
+    {
+      "aktif_madde": "DIOXACARB",
+      "aktif_madde_norm": "DIOXACARB",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "DIOXATHION",
+      "aktif_madde_norm": "DIOXATHION",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "DIPHENAMID",
+      "aktif_madde_norm": "DIPHENAMID",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "DNOC",
+      "aktif_madde_norm": "DNOC",
+      "ithalat_son": "2012-08-31",
+      "imalat_son": "2012-08-31",
+      "kullanim_son": "2013-06-30"
+    },
+    {
+      "aktif_madde": "ENDOSULFAN",
+      "aktif_madde_norm": "ENDOSULFAN",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "ENDOTHAL",
+      "aktif_madde_norm": "ENDOTHAL",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "EPN",
+      "aktif_madde_norm": "EPN",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "EPTC (ETHYL DIPROPYLTHIOCARBAMATE)",
+      "aktif_madde_norm": "EPTC (ETHYL DIPROPYLTHIOCARBAMATE)",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "ESBIOTHRIN (BIOALLETHRIN)",
+      "aktif_madde_norm": "ESBIOTHRIN (BIOALLETHRIN)",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "ETHALFLURALIN",
+      "aktif_madde_norm": "ETHALFLURALIN",
+      "ithalat_son": "2011-06-30",
+      "imalat_son": "2011-06-30",
+      "kullanim_son": "2012-08-31"
+    },
+    {
+      "aktif_madde": "ETHIOFENCARB",
+      "aktif_madde_norm": "ETHIOFENCARB",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "ETHION (AKA DIETHION)",
+      "aktif_madde_norm": "ETHION (AKA DIETHION)",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "ETHIRIMOL",
+      "aktif_madde_norm": "ETHIRIMOL",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "ETHOATE METHYL",
+      "aktif_madde_norm": "ETHOATE METHYL",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "ETHOPROPHOS",
+      "aktif_madde_norm": "ETHOPROPHOS",
+      "ithalat_son": "2020-09-30",
+      "imalat_son": "2020-10-31",
+      "kullanim_son": "2023-08-01"
+    },
+    {
+      "aktif_madde": "ETHOXYSULFURON",
+      "aktif_madde_norm": "ETHOXYSULFURON",
+      "ithalat_son": "2020-12-31",
+      "imalat_son": "2021-01-31",
+      "kullanim_son": "2021-12-31"
+    },
+    {
+      "aktif_madde": "FENAMIDONE",
+      "aktif_madde_norm": "FENAMIDONE",
+      "ithalat_son": "2020-08-31",
+      "imalat_son": "2020-10-15",
+      "kullanim_son": "2021-09-30"
+    },
+    {
+      "aktif_madde": "FENARIMOL",
+      "aktif_madde_norm": "FENARIMOL",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "FENBUTATIN OKSIT",
+      "aktif_madde_norm": "FENBUTATIN OKSIT",
+      "ithalat_son": "2020-08-31",
+      "imalat_son": "2020-10-15",
+      "kullanim_son": "2021-09-30"
+    },
+    {
+      "aktif_madde": "FENITROTHION",
+      "aktif_madde_norm": "FENITROTHION",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "FENPICLONIL",
+      "aktif_madde_norm": "FENPICLONIL",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "FENPROPATHRIN",
+      "aktif_madde_norm": "FENPROPATHRIN",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "FENPROPIMORPH",
+      "aktif_madde_norm": "FENPROPIMORPH",
+      "ithalat_son": "2020-06-30",
+      "imalat_son": "2020-07-31",
+      "kullanim_son": "2020-12-31"
+    },
+    {
+      "aktif_madde": "FENTHION",
+      "aktif_madde_norm": "FENTHION",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "FENTIN ACETATE",
+      "aktif_madde_norm": "FENTIN ACETATE",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "FENTIN HYDROXIDE",
+      "aktif_madde_norm": "FENTIN HYDROXIDE",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "FENVALERATE",
+      "aktif_madde_norm": "FENVALERATE",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "FIPRONIL",
+      "aktif_madde_norm": "FIPRONIL",
+      "ithalat_son": "2018-06-30",
+      "imalat_son": "2018-06-30",
+      "kullanim_son": "2019-01-01"
+    },
+    {
+      "aktif_madde": "FLAMPROP-M",
+      "aktif_madde_norm": "FLAMPROP-M",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "FLOCOUMAFEN",
+      "aktif_madde_norm": "FLOCOUMAFEN",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "FLUAZIFOP",
+      "aktif_madde_norm": "FLUAZIFOP",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "FLUBENZIMINE",
+      "aktif_madde_norm": "FLUBENZIMINE",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "FLUCYTHRINATE",
+      "aktif_madde_norm": "FLUCYTHRINATE",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "FLUFENOXURON",
+      "aktif_madde_norm": "FLUFENOXURON",
+      "ithalat_son": "2011-06-30",
+      "imalat_son": "2011-06-30",
+      "kullanim_son": "2012-08-31"
+    },
+    {
+      "aktif_madde": "FLUMETSULAM",
+      "aktif_madde_norm": "FLUMETSULAM",
+      "ithalat_son": "2009-12-31",
+      "imalat_son": "2009-12-31",
+      "kullanim_son": "2011-12-31"
+    },
+    {
+      "aktif_madde": "FLURIDONE",
+      "aktif_madde_norm": "FLURIDONE",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "FLUSILAZOLE",
+      "aktif_madde_norm": "FLUSILAZOLE",
+      "ithalat_son": "2020-12-31",
+      "imalat_son": "2021-01-31",
+      "kullanim_son": "2022-06-30"
+    },
+    {
+      "aktif_madde": "FLUTHIACET METHYL",
+      "aktif_madde_norm": "FLUTHIACET METHYL",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "FOLIC ACID",
+      "aktif_madde_norm": "FOLIC ACID",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "FOMESAFEN",
+      "aktif_madde_norm": "FOMESAFEN",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "FORMOTHION",
+      "aktif_madde_norm": "FORMOTHION",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "FURATHIOCARB",
+      "aktif_madde_norm": "FURATHIOCARB",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "HALFENPROX (AKA BROFENPROX)",
+      "aktif_madde_norm": "HALFENPROX (AKA BROFENPROX)",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "HALOXYFOP",
+      "aktif_madde_norm": "HALOXYFOP",
+      "ithalat_son": "2009-12-31",
+      "imalat_son": "2009-12-31",
+      "kullanim_son": "2011-12-31"
+    },
+    {
+      "aktif_madde": "HALOXYFOP ETHOXYETHYLESTER",
+      "aktif_madde_norm": "HALOXYFOP ETHOXYETHYLESTER",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "HEXACONAZOLE",
+      "aktif_madde_norm": "HEXACONAZOLE",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "HEXAFLUMURON",
+      "aktif_madde_norm": "HEXAFLUMURON",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "HIDROGEN PEROXIDE",
+      "aktif_madde_norm": "HIDROGEN PEROXIDE",
+      "ithalat_son": "2016-12-31",
+      "imalat_son": "2016-12-31",
+      "kullanim_son": "2017-12-31"
+    },
+    {
+      "aktif_madde": "HYDROGEN CYANAMIDE",
+      "aktif_madde_norm": "HYDROGEN CYANAMIDE",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "HYDROXY MCPA",
+      "aktif_madde_norm": "HYDROXY MCPA",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "IMAZAMETHABENZ METHYL",
+      "aktif_madde_norm": "IMAZAMETHABENZ METHYL",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "IMAZAPIC",
+      "aktif_madde_norm": "IMAZAPIC",
+      "ithalat_son": "2013-01-01",
+      "imalat_son": "2013-01-01",
+      "kullanim_son": "2014-12-31"
+    },
+    {
+      "aktif_madde": "IMAZAPYR",
+      "aktif_madde_norm": "IMAZAPYR",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "IMAZETHAPYR",
+      "aktif_madde_norm": "IMAZETHAPYR",
+      "ithalat_son": "2013-01-01",
+      "imalat_son": "2013-01-01",
+      "kullanim_son": "2014-12-31"
+    },
+    {
+      "aktif_madde": "IMIDACLOPRID",
+      "aktif_madde_norm": "IMIDACLOPRID",
+      "ithalat_son": "2023-08-31",
+      "imalat_son": "2023-11-15",
+      "kullanim_son": null
+    },
+    {
+      "aktif_madde": "IMINOCTADINE",
+      "aktif_madde_norm": "IMINOCTADINE",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "INDOLYLACETIC ACID (AKA AUXINS)",
+      "aktif_madde_norm": "INDOLYLACETIC ACID (AKA AUXINS)",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "IOXONIL",
+      "aktif_madde_norm": "IOXONIL",
+      "ithalat_son": "2020-12-31",
+      "imalat_son": "2021-01-31",
+      "kullanim_son": "2022-06-30"
+    },
+    {
+      "aktif_madde": "IPRODIONE",
+      "aktif_madde_norm": "IPRODIONE",
+      "ithalat_son": "2018-02-19",
+      "imalat_son": "2018-02-19",
+      "kullanim_son": "2018-06-08"
+    },
+    {
+      "aktif_madde": "ISOFENPHOS",
+      "aktif_madde_norm": "ISOFENPHOS",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "KINETIN",
+      "aktif_madde_norm": "KINETIN",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "LINURON",
+      "aktif_madde_norm": "LINURON",
+      "ithalat_son": "2020-09-30",
+      "imalat_son": "2020-10-31",
+      "kullanim_son": "2023-08-01"
+    },
+    {
+      "aktif_madde": "MANCOZEB",
+      "aktif_madde_norm": "MANCOZEB",
+      "ithalat_son": "2021-12-31",
+      "imalat_son": "2022-04-15",
+      "kullanim_son": "2022-12-31"
+    },
+    {
+      "aktif_madde": "MANEB",
+      "aktif_madde_norm": "MANEB",
+      "ithalat_son": "2020-08-31",
+      "imalat_son": "2020-10-15",
+      "kullanim_son": "2021-09-30"
+    },
+    {
+      "aktif_madde": "MEPHOSPHOLAN",
+      "aktif_madde_norm": "MEPHOSPHOLAN",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "METHABENZTHIAZURON",
+      "aktif_madde_norm": "METHABENZTHIAZURON",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "METHIDATHION",
+      "aktif_madde_norm": "METHIDATHION",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "METHIOCARB",
+      "aktif_madde_norm": "METHIOCARB",
+      "ithalat_son": "2020-08-31",
+      "imalat_son": "2020-10-15",
+      "kullanim_son": "2021-12-31"
+    },
+    {
+      "aktif_madde": "METHOMYL",
+      "aktif_madde_norm": "METHOMYL",
+      "ithalat_son": "2020-08-31",
+      "imalat_son": "2020-10-15",
+      "kullanim_son": "2021-09-30"
+    },
+    {
+      "aktif_madde": "METHOPRENE",
+      "aktif_madde_norm": "METHOPRENE",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "METOLACHLOR",
+      "aktif_madde_norm": "METOLACHLOR",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "METOMINOSTROBIN",
+      "aktif_madde_norm": "METOMINOSTROBIN",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "METOSULAM",
+      "aktif_madde_norm": "METOSULAM",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "MEVINPHOS",
+      "aktif_madde_norm": "MEVINPHOS",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "MOLINATE",
+      "aktif_madde_norm": "MOLINATE",
+      "ithalat_son": "2020-08-31",
+      "imalat_son": "2020-10-15",
+      "kullanim_son": "2021-09-30"
+    },
+    {
+      "aktif_madde": "MONOCROTOPHOS",
+      "aktif_madde_norm": "MONOCROTOPHOS",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "MONOLINURON",
+      "aktif_madde_norm": "MONOLINURON",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "NORFLURAZON",
+      "aktif_madde_norm": "NORFLURAZON",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "NOVALURON",
+      "aktif_madde_norm": "NOVALURON",
+      "ithalat_son": "2020-12-31",
+      "imalat_son": "2021-01-31",
+      "kullanim_son": "2022-06-30"
+    },
+    {
+      "aktif_madde": "NUARIMOL",
+      "aktif_madde_norm": "NUARIMOL",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "OFURACE",
+      "aktif_madde_norm": "OFURACE",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "OMETHOATE",
+      "aktif_madde_norm": "OMETHOATE",
+      "ithalat_son": "2011-06-30",
+      "imalat_son": "2011-06-30",
+      "kullanim_son": "2012-08-31"
+    },
+    {
+      "aktif_madde": "ORTHOSULFAMURON",
+      "aktif_madde_norm": "ORTHOSULFAMURON",
+      "ithalat_son": "2020-06-30",
+      "imalat_son": "2020-07-31",
+      "kullanim_son": "2020-12-31"
+    },
+    {
+      "aktif_madde": "OXADIAZON",
+      "aktif_madde_norm": "OXADIAZON",
+      "ithalat_son": "2020-09-30",
+      "imalat_son": "2020-10-31",
+      "kullanim_son": "2022-12-31"
+    },
+    {
+      "aktif_madde": "OXADIXYL",
+      "aktif_madde_norm": "OXADIXYL",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "OXAMYL",
+      "aktif_madde_norm": "OXAMYL",
+      "ithalat_son": "2011-10-19",
+      "imalat_son": "2011-10-19",
+      "kullanim_son": "2012-06-01"
+    },
+    {
+      "aktif_madde": "OXINE COPPER",
+      "aktif_madde_norm": "OXINE COPPER",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "OXYCARBOXIN",
+      "aktif_madde_norm": "OXYCARBOXIN",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "OXYDEMETON METHYL",
+      "aktif_madde_norm": "OXYDEMETON METHYL",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "PARAQUAT",
+      "aktif_madde_norm": "PARAQUAT",
+      "ithalat_son": "2013-01-01",
+      "imalat_son": "2013-01-01",
+      "kullanim_son": "2014-12-31"
+    },
+    {
+      "aktif_madde": "PARATHION METHYL",
+      "aktif_madde_norm": "PARATHION METHYL",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "PCNB (QUINTOZENE)",
+      "aktif_madde_norm": "PCNB (QUINTOZENE)",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "PERMETHRIN",
+      "aktif_madde_norm": "PERMETHRIN",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "PHENTHOATE",
+      "aktif_madde_norm": "PHENTHOATE",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "PHORATE",
+      "aktif_madde_norm": "PHORATE",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "PHOSALONE",
+      "aktif_madde_norm": "PHOSALONE",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "PHOSPHAMIDON",
+      "aktif_madde_norm": "PHOSPHAMIDON",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "PHOSPHORIC ACID",
+      "aktif_madde_norm": "PHOSPHORIC ACID",
+      "ithalat_son": "2013-01-01",
+      "imalat_son": "2013-01-01",
+      "kullanim_son": "2014-12-31"
+    },
+    {
+      "aktif_madde": "PINOLENE",
+      "aktif_madde_norm": "PINOLENE",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "PLANT EXTRACTS",
+      "aktif_madde_norm": "PLANT EXTRACTS",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "PRIMISULFURON",
+      "aktif_madde_norm": "PRIMISULFURON",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "PRIMISULFURON METHYL",
+      "aktif_madde_norm": "PRIMISULFURON METHYL",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "PROCYMIDONE",
+      "aktif_madde_norm": "PROCYMIDONE",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "PROFENOFOS",
+      "aktif_madde_norm": "PROFENOFOS",
+      "ithalat_son": "2009-12-31",
+      "imalat_son": "2009-12-31",
+      "kullanim_son": "2011-12-31"
+    },
+    {
+      "aktif_madde": "PROMETRYN",
+      "aktif_madde_norm": "PROMETRYN",
+      "ithalat_son": "2013-01-01",
+      "imalat_son": "2013-01-01",
+      "kullanim_son": "2014-12-31"
+    },
+    {
+      "aktif_madde": "PROPANIL",
+      "aktif_madde_norm": "PROPANIL",
+      "ithalat_son": "2011-06-30",
+      "imalat_son": "2011-06-30",
+      "kullanim_son": "2012-08-31"
+    },
+    {
+      "aktif_madde": "PROPARGITE",
+      "aktif_madde_norm": "PROPARGITE",
+      "ithalat_son": "2012-08-31",
+      "imalat_son": "2012-08-31",
+      "kullanim_son": "2013-06-30"
+    },
+    {
+      "aktif_madde": "PROPICONAZOLE",
+      "aktif_madde_norm": "PROPICONAZOLE",
+      "ithalat_son": "2019-12-31",
+      "imalat_son": "2019-12-31",
+      "kullanim_son": "2020-12-31"
+    },
+    {
+      "aktif_madde": "PROPINEB",
+      "aktif_madde_norm": "PROPINEB",
+      "ithalat_son": "2018-05-31",
+      "imalat_son": "2018-05-31",
+      "kullanim_son": "2019-01-01"
+    },
+    {
+      "aktif_madde": "PROPOXUR",
+      "aktif_madde_norm": "PROPOXUR",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "PROTHIOFOS",
+      "aktif_madde_norm": "PROTHIOFOS",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "PROTHOATE",
+      "aktif_madde_norm": "PROTHOATE",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "PYMETROZINE",
+      "aktif_madde_norm": "PYMETROZINE",
+      "ithalat_son": "2020-08-31",
+      "imalat_son": "2020-10-15",
+      "kullanim_son": "2021-12-31"
+    },
+    {
+      "aktif_madde": "PYRAZOPHOS",
+      "aktif_madde_norm": "PYRAZOPHOS",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "PYRIDAFENTHION",
+      "aktif_madde_norm": "PYRIDAFENTHION",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "PYRIMIDIFEN",
+      "aktif_madde_norm": "PYRIMIDIFEN",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "PYRITHIOBAC SODIUM",
+      "aktif_madde_norm": "PYRITHIOBAC SODIUM",
+      "ithalat_son": "2011-04-04",
+      "imalat_son": "2011-04-04",
+      "kullanim_son": "2013-04-04"
+    },
+    {
+      "aktif_madde": "QUINALPHOS",
+      "aktif_madde_norm": "QUINALPHOS",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "QUINOXYFEN",
+      "aktif_madde_norm": "QUINOXYFEN",
+      "ithalat_son": "2019-12-31",
+      "imalat_son": "2019-12-31",
+      "kullanim_son": "2020-12-31"
+    },
+    {
+      "aktif_madde": "QUIZALOFOP",
+      "aktif_madde_norm": "QUIZALOFOP",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "RESMETHRIN",
+      "aktif_madde_norm": "RESMETHRIN",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "SETHOXYDIM",
+      "aktif_madde_norm": "SETHOXYDIM",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "SIMAZINE",
+      "aktif_madde_norm": "SIMAZINE",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "SODIUM DERIVATIVES",
+      "aktif_madde_norm": "SODIUM DERIVATIVES",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "STREPTOMYCES LYDICUS WYEL",
+      "aktif_madde_norm": "STREPTOMYCES LYDICUS WYEL",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "TCMTB",
+      "aktif_madde_norm": "TCMTB",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "TEBUTHIURON",
+      "aktif_madde_norm": "TEBUTHIURON",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "TEPRALOXYDIM",
+      "aktif_madde_norm": "TEPRALOXYDIM",
+      "ithalat_son": "2020-12-31",
+      "imalat_son": "2021-01-31",
+      "kullanim_son": "2022-06-30"
+    },
+    {
+      "aktif_madde": "TERBUTRYNE",
+      "aktif_madde_norm": "TERBUTRYNE",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "TETRADIFON",
+      "aktif_madde_norm": "TETRADIFON",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "THIACLOPRID",
+      "aktif_madde_norm": "THIACLOPRID",
+      "ithalat_son": "2020-12-31",
+      "imalat_son": "2021-01-31",
+      "kullanim_son": null
+    },
+    {
+      "aktif_madde": "THIAZAFLURON",
+      "aktif_madde_norm": "THIAZAFLURON",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "THIAZOPYR",
+      "aktif_madde_norm": "THIAZOPYR",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "THIAMETHOXAM",
+      "aktif_madde_norm": "THIAMETHOXAM",
+      "ithalat_son": "2023-08-31",
+      "imalat_son": "2023-11-15",
+      "kullanim_son": null
+    },
+    {
+      "aktif_madde": "THIDIAZURON",
+      "aktif_madde_norm": "THIDIAZURON",
+      "ithalat_son": "2018-12-31",
+      "imalat_son": "2018-12-31",
+      "kullanim_son": "2019-12-31"
+    },
+    {
+      "aktif_madde": "THIOBENCARB",
+      "aktif_madde_norm": "THIOBENCARB",
+      "ithalat_son": "2011-06-30",
+      "imalat_son": "2011-06-30",
+      "kullanim_son": "2012-08-31"
+    },
+    {
+      "aktif_madde": "THIOCYCLAM HYDROGEN OXALATE",
+      "aktif_madde_norm": "THIOCYCLAM HYDROGEN OXALATE",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "THIODICARB",
+      "aktif_madde_norm": "THIODICARB",
+      "ithalat_son": "2012-08-31",
+      "imalat_son": "2012-08-31",
+      "kullanim_son": "2013-06-30"
+    },
+    {
+      "aktif_madde": "THIOMETON",
+      "aktif_madde_norm": "THIOMETON",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "TOLFENPYRAD",
+      "aktif_madde_norm": "TOLFENPYRAD",
+      "ithalat_son": "2012-08-31",
+      "imalat_son": "2012-08-31",
+      "kullanim_son": "2013-06-30"
+    },
+    {
+      "aktif_madde": "TOLYLFLUANID",
+      "aktif_madde_norm": "TOLYLFLUANID",
+      "ithalat_son": "2011-06-30",
+      "imalat_son": "2011-06-30",
+      "kullanim_son": "2012-08-31"
+    },
+    {
+      "aktif_madde": "TRALOMETHRIN",
+      "aktif_madde_norm": "TRALOMETHRIN",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "TRALKOXYDIM",
+      "aktif_madde_norm": "TRALKOXYDIM",
+      "ithalat_son": "2020-12-31",
+      "imalat_son": "2021-01-31",
+      "kullanim_son": "2021-12-31"
+    },
+    {
+      "aktif_madde": "TRI ISOPROPANOLAMIN",
+      "aktif_madde_norm": "TRI ISOPROPANOLAMIN",
+      "ithalat_son": "2009-08-31",
+      "imalat_son": "2009-08-31",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "TRIADIMEFON",
+      "aktif_madde_norm": "TRIADIMEFON",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "TRIADIMENOL",
+      "aktif_madde_norm": "TRIADIMENOL",
+      "ithalat_son": "2020-08-31",
+      "imalat_son": "2020-10-15",
+      "kullanim_son": "2021-09-30"
+    },
+    {
+      "aktif_madde": "TRIASULFURON",
+      "aktif_madde_norm": "TRIASULFURON",
+      "ithalat_son": "2020-12-31",
+      "imalat_son": "2021-01-31",
+      "kullanim_son": "2021-12-31"
+    },
+    {
+      "aktif_madde": "TRIAZAMATE",
+      "aktif_madde_norm": "TRIAZAMATE",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "TRIAZOPHOS",
+      "aktif_madde_norm": "TRIAZOPHOS",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "TRICHLORFON",
+      "aktif_madde_norm": "TRICHLORFON",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "TRIDEMORPH",
+      "aktif_madde_norm": "TRIDEMORPH",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "TRIFLOXYSULFURON SODIUM",
+      "aktif_madde_norm": "TRIFLOXYSULFURON SODIUM",
+      "ithalat_son": "2016-12-31",
+      "imalat_son": "2016-12-31",
+      "kullanim_son": "2017-12-31"
+    },
+    {
+      "aktif_madde": "TRIFLURALIN",
+      "aktif_madde_norm": "TRIFLURALIN",
+      "ithalat_son": "2012-08-31",
+      "imalat_son": "2012-08-31",
+      "kullanim_son": "2013-06-30"
+    },
+    {
+      "aktif_madde": "TRIFORINE",
+      "aktif_madde_norm": "TRIFORINE",
+      "ithalat_son": "2010-06-30",
+      "imalat_son": "2010-06-30",
+      "kullanim_son": "2011-08-31"
+    },
+    {
+      "aktif_madde": "TRIMEDLURE",
+      "aktif_madde_norm": "TRIMEDLURE",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    },
+    {
+      "aktif_madde": "VINCLOZOLIN",
+      "aktif_madde_norm": "VINCLOZOLIN",
+      "ithalat_son": "2008-12-31",
+      "imalat_son": "2008-12-31",
+      "kullanim_son": "2010-12-31"
+    }
+  ]
+}

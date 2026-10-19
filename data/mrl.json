@@ -1,0 +1,5187 @@
+{
+  "_meta": {
+    "dosya": "public/data/mrl.json",
+    "kaynak": "T.C. Tarım ve Orman Bakanlığı BKÜ Veri Tabanı → Ruhsat → MRL Oranları (arama: 'Üzüm'); dayanak Türk Gıda Kodeksi Pestisitlerin Maksimum Kalıntı Limitleri Yönetmeliği (R.G. tarihleri kayıtlarda)",
+    "cekilme_tarihi": "2026-09-16",
+    "birim": "mg/kg",
+    "urun_kodlari": {
+      "0151000": {
+        "ad": "Üzüm (sofralık + şaraplık)",
+        "kapsam": [
+          "sofralik",
+          "saraplik"
+        ]
+      },
+      "0151010": {
+        "ad": "Sofralık üzüm (BKÜ etiketi: kurutulmuş)",
+        "kapsam": [
+          "sofralik",
+          "kurutmalik"
+        ]
+      },
+      "0151020": {
+        "ad": "Şaraplık üzüm",
+        "kapsam": [
+          "saraplik"
+        ]
+      }
+    },
+    "yapi": "kayitlar[]: tüm revizyonlar (2021→2025). guncel{aktif}{urun_kodu}: en yeni R.G. tarihli değer. loq=true: '*' işaretli, tespit sınırı (LOQ) — pratikte 'kalıntı bulunmamalı'. kopru{bku_aktif_adi}: bku_tavsiye.json aktif madde adı → guncel anahtarı (null = MRL tanımlı değil).",
+    "not": "2016 ve 2014 R.G. revizyonları saklanmadı (BKÜ'de mevcut). AB MRL'leri ayrı dosya olarak eklenecek (ihracat). Bu veri hukuki referans değildir; hasat öncesi resmi tablo ve analiz esastır.",
+    "sofralik_notu": "BKÜ MRL veri tabanında taze sofralık üzüm için ayrı ürün kodu YOKTUR (yalnızca 0151000 ortak, 0151020 şaraplık, 0151010 kurutulmuş). Yalnızca şaraplık altında listelenen aktifler (captan, folpet, fludioxonil, tebuconazole, pyraclostrobin, lambda-cyhalothrin, fosetyl-Al, metalaxyl, spiroxamine vb.) için sofralıkta ayrı TR MRL tanımlı değildir. TGK MRL Yönetmeliği'nin listede yer almayan kombinasyonlara varsayılan 0,01 mg/kg uyguladığı genel kuralı TEYİT EDİLMEDEN motora değer olarak yazılmamıştır (uzman/resmi metin teyidi bekleniyor).",
+    "tabloda_yok": {
+      "kükürt": "Kükürt için MRL tanımlı değil (TGK: kalıntı limiti gerektirmeyen maddeler grubu) — tabloda yer almaz.",
+      "kalsiyum polisülfür": "Kükürt bazlı; MRL tanımlı değil — tabloda yer almaz.",
+      "tea tree oil": "Bitkisel yağ; BKÜ MRL tablosunda üzüm için kayıt yok."
+    },
+    "kopru_eksik": []
+  },
+  "guncel": {
+    "acequinocyl": {
+      "0151000": {
+        "mrl": 0.8,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Acequinocyl (F)"
+      }
+    },
+    "acrinathrin": {
+      "0151020": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Acrinathrin (F)"
+      }
+    },
+    "ametoctradin": {
+      "0151000": {
+        "mrl": 6,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Ametoctradin (R) (F)"
+      }
+    },
+    "azadirachtin": {
+      "0151000": {
+        "mrl": 1,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Azadirachtin"
+      }
+    },
+    "azoxystrobin": {
+      "0151000": {
+        "mrl": 3,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Azoxystrobin"
+      }
+    },
+    "bacillus thuringiensis subsp. kurstaki strain abts-351": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g",
+        "aktif_madde_ham": "Bacillus Thuringiensis Subsp. Kurstaki Strain ABTS-351"
+      }
+    },
+    "bacillus thuringiensis": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g",
+        "aktif_madde_ham": "Bacillus Thuringiensis"
+      }
+    },
+    "bacillus thuringiensis subsp. kurstaki strain pb-54": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g",
+        "aktif_madde_ham": "Bacillus Thuringiensis Subsp. Kurstaki Strain PB-54"
+      }
+    },
+    "bacillus thuringiensis subsp. kurstaki strain sa-11": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g",
+        "aktif_madde_ham": "Bacillus Thuringiensis Subsp. Kurstaki Strain SA-11"
+      }
+    },
+    "bacillus thuringiensis aizawai strain abts-1857": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g",
+        "aktif_madde_ham": "Bacillus Thuringiensis Aizawai Strain ABTS-1857"
+      }
+    },
+    "bacillus thuringiensis subsp. kurstaki eg2348": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g",
+        "aktif_madde_ham": "Bacillus Thuringiensis Subsp. Kurstaki EG2348"
+      }
+    },
+    "bacillus thuringiensis var. kurstaki": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g",
+        "aktif_madde_ham": "Bacillus Thuringiensis Var. Kurstaki (serotype H3a 3b 3c)"
+      }
+    },
+    "bakır bileşikleri": {
+      "0151000": {
+        "mrl": 50,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Bakır bileşikleri (Copper compounds)"
+      }
+    },
+    "benalaxyl": {
+      "0151020": {
+        "mrl": 0.3,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Benalaxyl (Benalaxyl-M dahil diğer bileşik izomer karışımları ile birlikte (izomerler toplamı))"
+      }
+    },
+    "bifenazate": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": "Kullanım Sonlandırma Tarihi: 31.12.2025",
+        "aktif_madde_ham": "Bifenazate (bifenazate ve bifenazate-diazene toplamı bifenazate cinsinden) (F)"
+      }
+    },
+    "boscalid": {
+      "0151000": {
+        "mrl": 5,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Boscalid (R) (F)"
+      }
+    },
+    "bupirimate": {
+      "0151000": {
+        "mrl": 1.5,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": "Ayrıca, Ethirimol (A) (F) (R ) dikkate alınır.",
+        "aktif_madde_ham": "Bupirimate (A) (F) (R)"
+      }
+    },
+    "captan": {
+      "0151020": {
+        "mrl": 0.02,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Captan (Captan ve THPI toplamı, captan cinsinden (R))"
+      }
+    },
+    "carfentrazone-ethyl": {
+      "0151000": {
+        "mrl": 0.02,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Carfentrazone-ethyl Ve Carfentrazone Toplamı (carfentrazone-ethyl cinsinden) (R)"
+      }
+    },
+    "chlorantraniliprole": {
+      "0151000": {
+        "mrl": 1,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Chlorantraniliprole (F)"
+      }
+    },
+    "chlormequat": {
+      "0151000": {
+        "mrl": 0.05,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Chlormequat (chlormequat ve tuzları toplamı, chlormequat-chloride cinsinden)"
+      }
+    },
+    "clofentezine": {
+      "0151020": {
+        "mrl": 1,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Clofentezine (R)"
+      }
+    },
+    "cyantraniliprole": {
+      "0151000": {
+        "mrl": 1.5,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Cyantraniliprole"
+      }
+    },
+    "cyazofamid": {
+      "0151000": {
+        "mrl": 2,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Cyazofamid"
+      }
+    },
+    "cyflufenamid": {
+      "0151000": {
+        "mrl": 0.2,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Cyflufenamid (cyflufenamid (Z- izomer) ve E-izomer toplamı cyflufenamid cinsinden) (A) (R )"
+      }
+    },
+    "cymoxanil": {
+      "0151000": {
+        "mrl": 0.05,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Cymoxanil"
+      }
+    },
+    "cypermethrin": {
+      "0151000": {
+        "mrl": 0.5,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Cypermethrin (diğer bileşik izomer karışımları dahil cypermethrin (izomerleri toplamı)) (F)"
+      }
+    },
+    "cyproconazole": {
+      "0151000": {
+        "mrl": 0.2,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Cyproconazole (F)"
+      }
+    },
+    "cyprodinil": {
+      "0151000": {
+        "mrl": 3,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Cyprodinil (F) (R)"
+      }
+    },
+    "deltamethrin": {
+      "0151000": {
+        "mrl": 0.2,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Deltamethrin (cis-deltamethrin) (F)"
+      }
+    },
+    "difenoconazole": {
+      "0151000": {
+        "mrl": 3,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Difenoconazole"
+      }
+    },
+    "diflufenican": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Diflufenican (F)"
+      }
+    },
+    "difluoroacetic acid": {
+      "0151000": {
+        "mrl": 0.15,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": "Flupyradifurone Kullanımından Kaynaklanan",
+        "aktif_madde_ham": "Difluoroacetic Acid (DFA)"
+      }
+    },
+    "dimethomorph": {
+      "0151000": {
+        "mrl": 3,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Dimethomorph (izomerleri toplamı)"
+      }
+    },
+    "dithianon": {
+      "0151000": {
+        "mrl": 3,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Dithianon"
+      }
+    },
+    "dithiocarbamates": {
+      "0151000": {
+        "mrl": 5,
+        "loq": false,
+        "ek_bilgi": "me",
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Dithiocarbamates (maneb, mancozeb, metiram, propineb, thiram ve ziram dahil dithiocarbamatlar; CS2 cinsinden) (1) (2)"
+      }
+    },
+    "emamectin": {
+      "0151000": {
+        "mrl": 0.04,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Emamectin B1a Ve Tuzları, Emamectin B1a Cinsinden (serbest form) (R) (F)"
+      }
+    },
+    "etofenprox": {
+      "0151000": {
+        "mrl": 4,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Etofenprox (F)"
+      }
+    },
+    "etoxazole": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Etoxazole"
+      }
+    },
+    "famoxadone": {
+      "0151020": {
+        "mrl": 2,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Famoxadone (F)"
+      },
+      "0151000": {
+        "mrl": 2,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2021-09-27",
+        "not": "07.01.2025 Tarihli RG Kararıyla Sofralık Üzüm Ve Şaraplık Üzüm Olarak İki Ayrı MRL Belirlenmiştir.",
+        "aktif_madde_ham": "Famoxadone (F)"
+      }
+    },
+    "fenazaquin": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Fenazaquin (F)"
+      }
+    },
+    "fenbuconazole": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Fenbuconazole (bileşik enantiyomerler toplamı)"
+      }
+    },
+    "fenhexamid": {
+      "0151000": {
+        "mrl": 15,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Fenhexamid (F)"
+      }
+    },
+    "fenpyroximate": {
+      "0151000": {
+        "mrl": 0.3,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Fenpyroximate (A) (F) (R)"
+      },
+      "0151020": {
+        "mrl": 0.3,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2021-09-27",
+        "not": "07.01.2025 Tarihli RG Kararıyla Üzüm Başlığı Altında Tek Bir MRL Belirlenmiştir.",
+        "aktif_madde_ham": "Fenpyroximate (A) (F) (R)"
+      }
+    },
+    "fenvalerate": {
+      "0151000": {
+        "mrl": 0.3,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Fenvalerate (esfenvalerate içeren bileşik izomerlerin (RR, SS, RS & SR) her bir oranı) (R) (F)"
+      }
+    },
+    "flazasulfuron": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Flazasulfuron"
+      }
+    },
+    "fluazifop-p": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Fluazifop-P (fluazifop tüm bileşik izomerleri, esterleri ve konjugeleri toplamı, fluazifop cinsinden)"
+      }
+    },
+    "flubendiamide": {
+      "0151020": {
+        "mrl": 2,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Flubendiamide (F)"
+      }
+    },
+    "fludioxonil": {
+      "0151020": {
+        "mrl": 4,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Fludioxonil (R) (F)"
+      }
+    },
+    "fluopicolide": {
+      "0151000": {
+        "mrl": 2,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Fluopicolide"
+      }
+    },
+    "fluopyram": {
+      "0151020": {
+        "mrl": 1.5,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Fluopyram (R)"
+      }
+    },
+    "fluoride iyonu": {
+      "0151010": {
+        "mrl": 0.2,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": "Sulfuryl Fluoride Kullanımından Kaynaklı",
+        "aktif_madde_ham": "Fluoride iyonu"
+      }
+    },
+    "flupyradifurone": {
+      "0151000": {
+        "mrl": 3,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": "Ayrıca, Difluoroacetic Acid (DFA) dikkate alınır.",
+        "aktif_madde_ham": "Flupyradifurone"
+      }
+    },
+    "flutriafol": {
+      "0151020": {
+        "mrl": 1.5,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Flutriafol"
+      }
+    },
+    "fluxapyroxad": {
+      "0151000": {
+        "mrl": 3,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Fluxapyroxad (F)"
+      }
+    },
+    "fluvalinate": {
+      "0151000": {
+        "mrl": 1,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Fluvalinate (izomerler toplamı) (F) tau-fluvalinate kullanımından kaynaklanan"
+      }
+    },
+    "folpet": {
+      "0151020": {
+        "mrl": 20,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Folpet (Folpet ve phtalimide toplamı, folpet cinsinden) (R)"
+      }
+    },
+    "forchlorfenuron": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Forchlorfenuron"
+      }
+    },
+    "formetanate": {
+      "0151000": {
+        "mrl": 0.1,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Formetanate (formetanate ve tuzları toplamı formetanate cinsinden (hydrochloride))"
+      }
+    },
+    "glufosinate": {
+      "0151020": {
+        "mrl": 0.15,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Glufosinate (glufosinate izomerleri, tuzları ve metebolitleri= 3-[hydroxy(methyl)phosphinoyl]propionic acid (MPP) ve N-acetyl-glufosinate (NAG) toplamı, glufosinate cinsinden)"
+      }
+    },
+    "glyphosate": {
+      "0151000": {
+        "mrl": 0.5,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": "Ayrıca, Trimethyl-sulfonium Katyonu Dikkate Alınır.",
+        "aktif_madde_ham": "Glyphosate"
+      }
+    },
+    "haloxyfop": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Haloxyfop (Haloxyfop, esterleri, tuzları ve konjügeleri toplamı haloxyfop cinsinden ( Herhangi bir oranda R- ve S- isomerler toplamı)) (F) (R)"
+      }
+    },
+    "hexythiazox": {
+      "0151000": {
+        "mrl": 1,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Hexythiazox (bileşik izomerlerinin herhangi bir oranı) (F)"
+      }
+    },
+    "iminoctadine tris": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Iminoctadine tris(albesilate)"
+      }
+    },
+    "indaziflam": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Indaziflam"
+      }
+    },
+    "indoxacarb": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Indoxacarb (indoxacarb ve R enantiomeri toplamı) (F)"
+      }
+    },
+    "iprovalicarb": {
+      "0151000": {
+        "mrl": 2,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Iprovalicarb"
+      }
+    },
+    "kresoxim-methyl": {
+      "0151000": {
+        "mrl": 1.5,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Kresoxim-methyl (R)"
+      }
+    },
+    "lambda-cyhalothrin": {
+      "0151020": {
+        "mrl": 0.2,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Lambda-cyhalothrin (gamma-cyhalothrin içeren) (R,S ve S,R izomerleri toplamı) (F)"
+      }
+    },
+    "lufenuron": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Lufenuron (Bileşik izomerlerin herhangi bir oranı) (F)"
+      }
+    },
+    "malathion": {
+      "0151000": {
+        "mrl": 0.02,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Malathion (malathion ve malaoxon toplamı; malathion cinsinden)"
+      }
+    },
+    "mandipropamid": {
+      "0151000": {
+        "mrl": 2,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Mandipropamid (bileşik izomerlerin herhangi bir oranı)"
+      }
+    },
+    "mcpa ve mcpb": {
+      "0151000": {
+        "mrl": 0.05,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "MCPA ve MCPB (tuzları, esterleri ve konjuge formları dahil MCPA, MCPB; MCPA cinsinden) (F) (R)"
+      }
+    },
+    "mefentrifluconazole": {
+      "0151020": {
+        "mrl": 2,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Mefentrifluconazole"
+      }
+    },
+    "meptyldinocap": {
+      "0151020": {
+        "mrl": 0.2,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Meptyldinocap (2,4 DNOPC ve 2,4 DNOP toplamı; meptyldinocap cinsinden)"
+      }
+    },
+    "metalaxyl ve metalaxyl-m": {
+      "0151020": {
+        "mrl": 1.5,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Metalaxyl Ve Metalaxyl-M (metalaxyl-M dahil diğer bileşik izomer karışımları ile birlikte metalaxyl (izomerler toplamı)) (R)"
+      }
+    },
+    "methoxyfenozide": {
+      "0151000": {
+        "mrl": 1,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Methoxyfenozide (F)"
+      }
+    },
+    "metrafenone": {
+      "0151000": {
+        "mrl": 7,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Metrafenone (F)"
+      }
+    },
+    "myclobutanil": {
+      "0151000": {
+        "mrl": 1.5,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Myclobutanil (bileşen izomerler toplamı) (R)"
+      }
+    },
+    "oxathiapiprolin": {
+      "0151000": {
+        "mrl": 0.7,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Oxathiapiprolin"
+      }
+    },
+    "oxyfluorfen": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Oxyfluorfen (F)"
+      }
+    },
+    "penconazole": {
+      "0151000": {
+        "mrl": 0.4,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Penconazole (bileşik isomerleri toplamı) (F)"
+      }
+    },
+    "phosphonic acid": {
+      "0151020": {
+        "mrl": 150,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": "Fosetyl-Al (fosetyl ve phosphonic asit ve tuzları toplamı; fosetyl cinsinden) veya Phosphorous Acid kullanımından kaynaklı",
+        "aktif_madde_ham": "Phosphonic Acid Ve Tuzları Phosphonic Acid Cinsinden (R)"
+      }
+    },
+    "proquinazid": {
+      "0151000": {
+        "mrl": 0.5,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Proquinazid (F) (R )"
+      }
+    },
+    "pyraclostrobin": {
+      "0151020": {
+        "mrl": 2,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Pyraclostrobin (F)"
+      }
+    },
+    "pyrethrins": {
+      "0151000": {
+        "mrl": 1,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Pyrethrins"
+      }
+    },
+    "pyrimethanil": {
+      "0151020": {
+        "mrl": 5,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Pyrimethanil (R)"
+      },
+      "0151000": {
+        "mrl": 5,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2021-09-27",
+        "not": null,
+        "aktif_madde_ham": "Pyrimethanil (R)"
+      }
+    },
+    "pyriofenone": {
+      "0151020": {
+        "mrl": 0.8,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Pyriofenone"
+      }
+    },
+    "pyriproxyfen": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Pyriproxyfen (F)"
+      }
+    },
+    "quizalofop": {
+      "0151000": {
+        "mrl": 0.02,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Quizalofop (quizalofop, tuzları, esterleri (propaquizafop içeren) ve konjügeleri toplamı, quizalofop cinsinden (bileşen izomerlerin herhangi bir oranı))"
+      }
+    },
+    "reynoutria spp": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Reynoutria Spp"
+      }
+    },
+    "sodium 5-nitroguaiacolate, sodium o-nitrophenolate ve sodium p-nitrophenolate": {
+      "0151020": {
+        "mrl": 0.03,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Sodium 5-nitroguaiacolate, sodium o-nitrophenolate ve sodium p-nitrophenolate (Sodium 5-nitroguaiacolate, sodium o-nitrophenolate ve sodium p-nitrophenolate toplamı, sodium 5-nitroguaiacolate cinsinden)"
+      }
+    },
+    "spinetoram": {
+      "0151000": {
+        "mrl": 0.4,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Spinetoram (Spinetoram-J ve spinetoram-L toplamı) (F) (A)"
+      }
+    },
+    "spinosad": {
+      "0151000": {
+        "mrl": 0.5,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Spinosad (spinosad, spinosyn A ve spinosyn D toplamı) (F)"
+      }
+    },
+    "spirodiclofen": {
+      "0151020": {
+        "mrl": 0.2,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Spirodiclofen (F)"
+      }
+    },
+    "spirotetramat": {
+      "0151000": {
+        "mrl": 2,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Spirotetramat ve spirotetramat-enol toplamı; spirotetramat cinsinden (R)"
+      }
+    },
+    "spiroxamine": {
+      "0151020": {
+        "mrl": 0.5,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Spiroxamine (izomerler toplamı) (A) (R)"
+      }
+    },
+    "sulfoxaflor": {
+      "0151000": {
+        "mrl": 2,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Sulfoxaflor (İzomerleri toplamı)"
+      }
+    },
+    "sulfuryl fluoride": {
+      "0151010": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Sulfuryl fluoride"
+      }
+    },
+    "tebuconazole": {
+      "0151020": {
+        "mrl": 1,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Tebuconazole (R)"
+      }
+    },
+    "tebufenozide": {
+      "0151000": {
+        "mrl": 4,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Tebufenozide (F)"
+      }
+    },
+    "tebufenpyrad": {
+      "0151020": {
+        "mrl": 0.6,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Tebufenpyrad (F)"
+      },
+      "0151000": {
+        "mrl": 0.6,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2021-09-27",
+        "not": null,
+        "aktif_madde_ham": "Tebufenpyrad (F)"
+      }
+    },
+    "tetraconazole": {
+      "0151000": {
+        "mrl": 0.07,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Tetraconazole (bileşik izomerlerin toplamı) (F)"
+      }
+    },
+    "thiophanate-methyl": {
+      "0151020": {
+        "mrl": 3,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Thiophanate-methyl (R)"
+      }
+    },
+    "trifloxystrobin": {
+      "0151000": {
+        "mrl": 3,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Trifloxystrobin (F) (R)"
+      }
+    },
+    "trimethyl-sulfonium katyonu": {
+      "0151000": {
+        "mrl": 0.05,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": "Glyphosate Kullanımından Kaynaklı",
+        "aktif_madde_ham": "Trimethyl-sulfonium katyonu (glyphosate kullanımı sonucu oluşan) (F)"
+      }
+    },
+    "valifenalate": {
+      "0151000": {
+        "mrl": 1,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Valifenalate (R) (A)"
+      }
+    },
+    "zoxamide": {
+      "0151000": {
+        "mrl": 5,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-11-16",
+        "not": null,
+        "aktif_madde_ham": "Zoxamide"
+      }
+    },
+    "fenoxycarb": {
+      "0151000": {
+        "mrl": 0.5,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-01-07",
+        "not": null,
+        "aktif_madde_ham": "Fenoxycarb"
+      }
+    },
+    "fosetyl-al": {
+      "0151020": {
+        "mrl": 200,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-01-07",
+        "not": "25.04.2025 Tarihinden İtibaren 'Phosphonic Acid Ve Tuzları Phosphonic Acid Cinsinden (R)' kalıntı tanımı için belirlenen MRL uygulanır.",
+        "aktif_madde_ham": "Fosetyl-Al (fosetyl ve phosphonic asit ve tuzları toplamı; fosetyl cinsinden)"
+      },
+      "0151000": {
+        "mrl": 100,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2021-09-27",
+        "not": null,
+        "aktif_madde_ham": "Fosetyl-Al (fosetyl ve phosphonic asit ve tuzları toplamı; fosetyl cinsinden)"
+      }
+    },
+    "ethirimol": {
+      "0151000": {
+        "mrl": 0.4,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-01-07",
+        "not": "Bu Aktif Madde EK-4'te Yer Almaktadır. Ancak Bupirimate Kullanımından Kaynaklı Metabolit Olması Nedeniyle Bupirimate Kullanılan Ürünler İçin Bu MRL'ler Eklenmiştir.",
+        "aktif_madde_ham": "Ethirimol (A) (F) (R )"
+      }
+    },
+    "acetamiprid": {
+      "0151000": {
+        "mrl": 0.5,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2025-01-07",
+        "not": "Bakanlığımızın 19.03.2025 Tarih Ve 18480997 Sayılı Olur'u İle Acetamiprid Aktif Maddesi Ve Karışımlarını İçeren Bitki Koruma Ürünleri İle İlgili Olarak Tavsiyesinin 31.03.2025 İtibari İle Kullanımının Sonlandırılmasına Karar Verilmiştir.",
+        "aktif_madde_ham": "Acetamiprid (R)"
+      }
+    },
+    "flusilazole": {
+      "0151020": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2021-09-27",
+        "not": "Kullanım Sonlandırma Tarihi: 30.06.2022",
+        "aktif_madde_ham": "Flusilazole (F) (R)"
+      }
+    },
+    "folpet ve phtalimide toplamı, folpet cinsinden": {
+      "0151020": {
+        "mrl": 20,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2021-09-27",
+        "not": null,
+        "aktif_madde_ham": "Folpet ve phtalimide toplamı, folpet cinsinden (R)"
+      }
+    },
+    "emamectinbenzoat": {
+      "0151000": {
+        "mrl": 0.05,
+        "loq": false,
+        "ek_bilgi": null,
+        "tarih": "2021-09-27",
+        "not": null,
+        "aktif_madde_ham": "Emamectinbenzoat B1a (Emamectin cinsinden)"
+      }
+    },
+    "imazalil": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2021-09-27",
+        "not": null,
+        "aktif_madde_ham": "Imazalil (bileşen izomerlerin herhangi bir oranı) (R)"
+      }
+    },
+    "iminoctadine trisalbesilate": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2021-09-27",
+        "not": null,
+        "aktif_madde_ham": "Iminoctadine trisalbesilate"
+      }
+    },
+    "tepraloxydim": {
+      "0151000": {
+        "mrl": 0.1,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2021-09-27",
+        "not": "Kullanım Sonlandırma Tarihi: 30.06.2022",
+        "aktif_madde_ham": "Tepraloxydim (tepraloxydim ve 3-(tetrahydro-pyran-4-yl)-glutaric asit veya 3-hydroxy-(tetrahydro-pyran-4-yl)-glutaric aside hidrolize olabilen metabolitleri toplamı; tepraloxydim cinsinden)"
+      }
+    },
+    "tolclofos-methyl": {
+      "0151020": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2021-09-27",
+        "not": null,
+        "aktif_madde_ham": "Tolclofos-methyl (F)"
+      }
+    },
+    "pyridaben": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2021-09-27",
+        "not": null,
+        "aktif_madde_ham": "Pyridaben (F)"
+      }
+    },
+    "bromuconazole": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2021-09-27",
+        "not": null,
+        "aktif_madde_ham": "Bromuconazole (diasteroisomerler toplamı) (F)"
+      }
+    },
+    "abamectin": {
+      "0151000": {
+        "mrl": 0.01,
+        "loq": true,
+        "ek_bilgi": null,
+        "tarih": "2021-09-27",
+        "not": "Komisyon Kararına İstinaden 31.12.2023 Tarihi İtibari İle Kullanımı Sonlandırılmıştır.",
+        "aktif_madde_ham": "Abamectin (Avermectin B1a, avermectin B1b ve avermectin B1a'nın delta-8,9 izomeri toplamı, avermectin B1a cinsinden) (F) (R )"
+      }
+    }
+  },
+  "kopru": {
+    "Acequinocyl": "acequinocyl",
+    "Acrinathrin": "acrinathrin",
+    "Alpha-cypermethrin": "cypermethrin",
+    "Ametoctradin": "ametoctradin",
+    "Azoxystrobin": "azoxystrobin",
+    "Bakır": "bakır bileşikleri",
+    "Bakır hidroksit": "bakır bileşikleri",
+    "Bakır hidroksit + oksiklorid": "bakır bileşikleri",
+    "Bakır oksiklorid": "bakır bileşikleri",
+    "Bakır oksit": "bakır bileşikleri",
+    "Bakır sülfat": "bakır bileşikleri",
+    "Bakır sülfat / göztaşı": "bakır bileşikleri",
+    "Bazik bakır sülfat": "bakır bileşikleri",
+    "Benalaxyl-M": "benalaxyl",
+    "Bordo bulamacı": "bakır bileşikleri",
+    "Boscalid": "boscalid",
+    "Bupirimate": "bupirimate",
+    "Captan": "captan",
+    "Chlorantraniliprole": "chlorantraniliprole",
+    "Clofentezine": "clofentezine",
+    "Cyantraniliprole": "cyantraniliprole",
+    "Cyazofamid": "cyazofamid",
+    "Cyflufenamid": "cyflufenamid",
+    "Cymoxanil": "cymoxanil",
+    "Cypermethrin": "cypermethrin",
+    "Cyproconazole": "cyproconazole",
+    "Cyprodinil": "cyprodinil",
+    "Deltamethrin": "deltamethrin",
+    "Difenoconazole": "difenoconazole",
+    "Dimethomorph": "dimethomorph",
+    "Dithianon": "dithianon",
+    "Emamectin benzoate": "emamectin",
+    "Esfenvalerate": "fenvalerate",
+    "Etofenprox": "etofenprox",
+    "Etoxazole": "etoxazole",
+    "Famoxadone": "famoxadone",
+    "Fenhexamid": "fenhexamid",
+    "Flubendiamide": "flubendiamide",
+    "Fludioxonil": "fludioxonil",
+    "Fluopicolide": "fluopicolide",
+    "Fluopyram": "fluopyram",
+    "Flutriafol": "flutriafol",
+    "Fluxapyroxad": "fluxapyroxad",
+    "Folpet": "folpet",
+    "Formetanate hydrochloride": "formetanate",
+    "Fosetyl-Al": "phosphonic acid",
+    "Gamma-cyhalothrin": "lambda-cyhalothrin",
+    "Hexythiazox": "hexythiazox",
+    "Iminoctadine tris": "iminoctadine tris",
+    "Indoxacarb": "indoxacarb",
+    "Iprovalicarb": "iprovalicarb",
+    "Kalsiyum polisülfür": null,
+    "Kresoxim-methyl": "kresoxim-methyl",
+    "Kükürt": null,
+    "Lambda-cyhalothrin": "lambda-cyhalothrin",
+    "Lufenuron": "lufenuron",
+    "Malathion": "malathion",
+    "Mandipropamid": "mandipropamid",
+    "Mefentrifluconazole": "mefentrifluconazole",
+    "Meptyldinocap": "meptyldinocap",
+    "Metalaxyl": "metalaxyl ve metalaxyl-m",
+    "Metalaxyl-M": "metalaxyl ve metalaxyl-m",
+    "Methoxyfenozide": "methoxyfenozide",
+    "Metiram": "dithiocarbamates",
+    "Metrafenone": "metrafenone",
+    "Myclobutanil": "myclobutanil",
+    "Oxathiapiprolin": "oxathiapiprolin",
+    "Penconazole": "penconazole",
+    "Phosphorous Acid": "phosphonic acid",
+    "Proquinazid": "proquinazid",
+    "Pyraclostrobin": "pyraclostrobin",
+    "Pyrethrin": "pyrethrins",
+    "Pyrimethanil": "pyrimethanil",
+    "Pyriofenone": "pyriofenone",
+    "Pyriproxyfen": "pyriproxyfen",
+    "Spinetoram": "spinetoram",
+    "Spinosad": "spinosad",
+    "Spiroxamine": "spiroxamine",
+    "Tau-fluvalinate": "fluvalinate",
+    "Tea tree oil": null,
+    "Tebuconazole": "tebuconazole",
+    "Tebufenozide": "tebufenozide",
+    "Tebufenpyrad": "tebufenpyrad",
+    "Tetraconazole": "tetraconazole",
+    "Thiophanate-methyl": "thiophanate-methyl",
+    "Trifloxystrobin": "trifloxystrobin",
+    "Valiphenal": "valifenalate",
+    "Yağ ve rosin asitlerinin bakır tuzları": "bakır bileşikleri",
+    "Zeta-cypermethrin": "cypermethrin",
+    "Zoxamide": "zoxamide"
+  },
+  "kayitlar": [
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Acequinocyl (F)",
+      "aktif_madde": "acequinocyl",
+      "mrl": 0.8,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Acrinathrin (F)",
+      "aktif_madde": "acrinathrin",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Ametoctradin (R) (F)",
+      "aktif_madde": "ametoctradin",
+      "mrl": 6,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Azadirachtin",
+      "aktif_madde": "azadirachtin",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Azoxystrobin",
+      "aktif_madde": "azoxystrobin",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bacillus Thuringiensis Subsp. Kurstaki Strain ABTS-351",
+      "aktif_madde": "bacillus thuringiensis subsp. kurstaki strain abts-351",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bacillus Thuringiensis",
+      "aktif_madde": "bacillus thuringiensis",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bacillus Thuringiensis Subsp. Kurstaki Strain PB-54",
+      "aktif_madde": "bacillus thuringiensis subsp. kurstaki strain pb-54",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bacillus Thuringiensis Subsp. Kurstaki Strain SA-11",
+      "aktif_madde": "bacillus thuringiensis subsp. kurstaki strain sa-11",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bacillus Thuringiensis Aizawai Strain ABTS-1857",
+      "aktif_madde": "bacillus thuringiensis aizawai strain abts-1857",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bacillus Thuringiensis Subsp. Kurstaki EG2348",
+      "aktif_madde": "bacillus thuringiensis subsp. kurstaki eg2348",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bacillus Thuringiensis Var. Kurstaki (serotype H3a 3b 3c)",
+      "aktif_madde": "bacillus thuringiensis var. kurstaki",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bakır bileşikleri (Copper compounds)",
+      "aktif_madde": "bakır bileşikleri",
+      "mrl": 50,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Benalaxyl (Benalaxyl-M dahil diğer bileşik izomer karışımları ile birlikte (izomerler toplamı))",
+      "aktif_madde": "benalaxyl",
+      "mrl": 0.3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bifenazate (bifenazate ve bifenazate-diazene toplamı bifenazate cinsinden) (F)",
+      "aktif_madde": "bifenazate",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": "Kullanım Sonlandırma Tarihi: 31.12.2025"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Boscalid (R) (F)",
+      "aktif_madde": "boscalid",
+      "mrl": 5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bupirimate (A) (F) (R)",
+      "aktif_madde": "bupirimate",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": "Ayrıca, Ethirimol (A) (F) (R ) dikkate alınır."
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Captan (Captan ve THPI toplamı, captan cinsinden (R))",
+      "aktif_madde": "captan",
+      "mrl": 0.02,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Carfentrazone-ethyl Ve Carfentrazone Toplamı (carfentrazone-ethyl cinsinden) (R)",
+      "aktif_madde": "carfentrazone-ethyl",
+      "mrl": 0.02,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Chlorantraniliprole (F)",
+      "aktif_madde": "chlorantraniliprole",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Chlormequat (chlormequat ve tuzları toplamı, chlormequat-chloride cinsinden)",
+      "aktif_madde": "chlormequat",
+      "mrl": 0.05,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Clofentezine (R)",
+      "aktif_madde": "clofentezine",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Cyantraniliprole",
+      "aktif_madde": "cyantraniliprole",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Cyazofamid",
+      "aktif_madde": "cyazofamid",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Cyflufenamid (cyflufenamid (Z- izomer) ve E-izomer toplamı cyflufenamid cinsinden) (A) (R )",
+      "aktif_madde": "cyflufenamid",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Cymoxanil",
+      "aktif_madde": "cymoxanil",
+      "mrl": 0.05,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Cypermethrin (diğer bileşik izomer karışımları dahil cypermethrin (izomerleri toplamı)) (F)",
+      "aktif_madde": "cypermethrin",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Cyproconazole (F)",
+      "aktif_madde": "cyproconazole",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Cyprodinil (F) (R)",
+      "aktif_madde": "cyprodinil",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Deltamethrin (cis-deltamethrin) (F)",
+      "aktif_madde": "deltamethrin",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Difenoconazole",
+      "aktif_madde": "difenoconazole",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Diflufenican (F)",
+      "aktif_madde": "diflufenican",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Difluoroacetic Acid (DFA)",
+      "aktif_madde": "difluoroacetic acid",
+      "mrl": 0.15,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": "Flupyradifurone Kullanımından Kaynaklanan"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Dimethomorph (izomerleri toplamı)",
+      "aktif_madde": "dimethomorph",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Dithianon",
+      "aktif_madde": "dithianon",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Dithiocarbamates (maneb, mancozeb, metiram, propineb, thiram ve ziram dahil dithiocarbamatlar; CS2 cinsinden) (1) (2)",
+      "aktif_madde": "dithiocarbamates",
+      "mrl": 5,
+      "loq": false,
+      "ek_bilgi": "me",
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Emamectin B1a Ve Tuzları, Emamectin B1a Cinsinden (serbest form) (R) (F)",
+      "aktif_madde": "emamectin",
+      "mrl": 0.04,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Etofenprox (F)",
+      "aktif_madde": "etofenprox",
+      "mrl": 4,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Etoxazole",
+      "aktif_madde": "etoxazole",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Famoxadone (F)",
+      "aktif_madde": "famoxadone",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fenazaquin (F)",
+      "aktif_madde": "fenazaquin",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fenbuconazole (bileşik enantiyomerler toplamı)",
+      "aktif_madde": "fenbuconazole",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fenhexamid (F)",
+      "aktif_madde": "fenhexamid",
+      "mrl": 15,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fenpyroximate (A) (F) (R)",
+      "aktif_madde": "fenpyroximate",
+      "mrl": 0.3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fenvalerate (esfenvalerate içeren bileşik izomerlerin (RR, SS, RS & SR) her bir oranı) (R) (F)",
+      "aktif_madde": "fenvalerate",
+      "mrl": 0.3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Flazasulfuron",
+      "aktif_madde": "flazasulfuron",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fluazifop-P (fluazifop tüm bileşik izomerleri, esterleri ve konjugeleri toplamı, fluazifop cinsinden)",
+      "aktif_madde": "fluazifop-p",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Flubendiamide (F)",
+      "aktif_madde": "flubendiamide",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Fludioxonil (R) (F)",
+      "aktif_madde": "fludioxonil",
+      "mrl": 4,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fluopicolide",
+      "aktif_madde": "fluopicolide",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Fluopyram (R)",
+      "aktif_madde": "fluopyram",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151010",
+      "urun_etiketi": "Sofralık Üzüm (kurutulmuş)",
+      "aktif_madde_ham": "Fluoride iyonu",
+      "aktif_madde": "fluoride iyonu",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": "Sulfuryl Fluoride Kullanımından Kaynaklı"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Flupyradifurone",
+      "aktif_madde": "flupyradifurone",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": "Ayrıca, Difluoroacetic Acid (DFA) dikkate alınır."
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Flutriafol",
+      "aktif_madde": "flutriafol",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fluxapyroxad (F)",
+      "aktif_madde": "fluxapyroxad",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fluvalinate (izomerler toplamı) (F) tau-fluvalinate kullanımından kaynaklanan",
+      "aktif_madde": "fluvalinate",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Folpet (Folpet ve phtalimide toplamı, folpet cinsinden) (R)",
+      "aktif_madde": "folpet",
+      "mrl": 20,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Forchlorfenuron",
+      "aktif_madde": "forchlorfenuron",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Formetanate (formetanate ve tuzları toplamı formetanate cinsinden (hydrochloride))",
+      "aktif_madde": "formetanate",
+      "mrl": 0.1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Glufosinate (glufosinate izomerleri, tuzları ve metebolitleri= 3-[hydroxy(methyl)phosphinoyl]propionic acid (MPP) ve N-acetyl-glufosinate (NAG) toplamı, glufosinate cinsinden)",
+      "aktif_madde": "glufosinate",
+      "mrl": 0.15,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Glyphosate",
+      "aktif_madde": "glyphosate",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": "Ayrıca, Trimethyl-sulfonium Katyonu Dikkate Alınır."
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Haloxyfop (Haloxyfop, esterleri, tuzları ve konjügeleri toplamı haloxyfop cinsinden ( Herhangi bir oranda R- ve S- isomerler toplamı)) (F) (R)",
+      "aktif_madde": "haloxyfop",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Hexythiazox (bileşik izomerlerinin herhangi bir oranı) (F)",
+      "aktif_madde": "hexythiazox",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Iminoctadine tris(albesilate)",
+      "aktif_madde": "iminoctadine tris",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Indaziflam",
+      "aktif_madde": "indaziflam",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Indoxacarb (indoxacarb ve R enantiomeri toplamı) (F)",
+      "aktif_madde": "indoxacarb",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Iprovalicarb",
+      "aktif_madde": "iprovalicarb",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Kresoxim-methyl (R)",
+      "aktif_madde": "kresoxim-methyl",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Lambda-cyhalothrin (gamma-cyhalothrin içeren) (R,S ve S,R izomerleri toplamı) (F)",
+      "aktif_madde": "lambda-cyhalothrin",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Lufenuron (Bileşik izomerlerin herhangi bir oranı) (F)",
+      "aktif_madde": "lufenuron",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Malathion (malathion ve malaoxon toplamı; malathion cinsinden)",
+      "aktif_madde": "malathion",
+      "mrl": 0.02,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Mandipropamid (bileşik izomerlerin herhangi bir oranı)",
+      "aktif_madde": "mandipropamid",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "MCPA ve MCPB (tuzları, esterleri ve konjuge formları dahil MCPA, MCPB; MCPA cinsinden) (F) (R)",
+      "aktif_madde": "mcpa ve mcpb",
+      "mrl": 0.05,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Mefentrifluconazole",
+      "aktif_madde": "mefentrifluconazole",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Meptyldinocap (2,4 DNOPC ve 2,4 DNOP toplamı; meptyldinocap cinsinden)",
+      "aktif_madde": "meptyldinocap",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Metalaxyl Ve Metalaxyl-M (metalaxyl-M dahil diğer bileşik izomer karışımları ile birlikte metalaxyl (izomerler toplamı)) (R)",
+      "aktif_madde": "metalaxyl ve metalaxyl-m",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Methoxyfenozide (F)",
+      "aktif_madde": "methoxyfenozide",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Metrafenone (F)",
+      "aktif_madde": "metrafenone",
+      "mrl": 7,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Myclobutanil (bileşen izomerler toplamı) (R)",
+      "aktif_madde": "myclobutanil",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Oxathiapiprolin",
+      "aktif_madde": "oxathiapiprolin",
+      "mrl": 0.7,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Oxyfluorfen (F)",
+      "aktif_madde": "oxyfluorfen",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Penconazole (bileşik isomerleri toplamı) (F)",
+      "aktif_madde": "penconazole",
+      "mrl": 0.4,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Phosphonic Acid Ve Tuzları Phosphonic Acid Cinsinden (R)",
+      "aktif_madde": "phosphonic acid",
+      "mrl": 150,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": "Fosetyl-Al (fosetyl ve phosphonic asit ve tuzları toplamı; fosetyl cinsinden) veya Phosphorous Acid kullanımından kaynaklı"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Proquinazid (F) (R )",
+      "aktif_madde": "proquinazid",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Pyraclostrobin (F)",
+      "aktif_madde": "pyraclostrobin",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Pyrethrins",
+      "aktif_madde": "pyrethrins",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Pyrimethanil (R)",
+      "aktif_madde": "pyrimethanil",
+      "mrl": 5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Pyriofenone",
+      "aktif_madde": "pyriofenone",
+      "mrl": 0.8,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Pyriproxyfen (F)",
+      "aktif_madde": "pyriproxyfen",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Quizalofop (quizalofop, tuzları, esterleri (propaquizafop içeren) ve konjügeleri toplamı, quizalofop cinsinden (bileşen izomerlerin herhangi bir oranı))",
+      "aktif_madde": "quizalofop",
+      "mrl": 0.02,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Reynoutria Spp",
+      "aktif_madde": "reynoutria spp",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Sodium 5-nitroguaiacolate, sodium o-nitrophenolate ve sodium p-nitrophenolate (Sodium 5-nitroguaiacolate, sodium o-nitrophenolate ve sodium p-nitrophenolate toplamı, sodium 5-nitroguaiacolate cinsinden)",
+      "aktif_madde": "sodium 5-nitroguaiacolate, sodium o-nitrophenolate ve sodium p-nitrophenolate",
+      "mrl": 0.03,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Spinetoram (Spinetoram-J ve spinetoram-L toplamı) (F) (A)",
+      "aktif_madde": "spinetoram",
+      "mrl": 0.4,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Spinosad (spinosad, spinosyn A ve spinosyn D toplamı) (F)",
+      "aktif_madde": "spinosad",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Spirodiclofen (F)",
+      "aktif_madde": "spirodiclofen",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Spirotetramat ve spirotetramat-enol toplamı; spirotetramat cinsinden (R)",
+      "aktif_madde": "spirotetramat",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Spiroxamine (izomerler toplamı) (A) (R)",
+      "aktif_madde": "spiroxamine",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Sulfoxaflor (İzomerleri toplamı)",
+      "aktif_madde": "sulfoxaflor",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151010",
+      "urun_etiketi": "Sofralık Üzüm (kurutulmuş)",
+      "aktif_madde_ham": "Sulfuryl fluoride",
+      "aktif_madde": "sulfuryl fluoride",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Tebuconazole (R)",
+      "aktif_madde": "tebuconazole",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Tebufenozide (F)",
+      "aktif_madde": "tebufenozide",
+      "mrl": 4,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Tebufenpyrad (F)",
+      "aktif_madde": "tebufenpyrad",
+      "mrl": 0.6,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Tetraconazole (bileşik izomerlerin toplamı) (F)",
+      "aktif_madde": "tetraconazole",
+      "mrl": 0.07,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Thiophanate-methyl (R)",
+      "aktif_madde": "thiophanate-methyl",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Trifloxystrobin (F) (R)",
+      "aktif_madde": "trifloxystrobin",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Trimethyl-sulfonium katyonu (glyphosate kullanımı sonucu oluşan) (F)",
+      "aktif_madde": "trimethyl-sulfonium katyonu",
+      "mrl": 0.05,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": "Glyphosate Kullanımından Kaynaklı"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Valifenalate (R) (A)",
+      "aktif_madde": "valifenalate",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Zoxamide",
+      "aktif_madde": "zoxamide",
+      "mrl": 5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-11-16",
+      "tarih_ham": "16.11.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fenvalerate (esfenvalerate içeren bileşik izomerlerin (RR, SS, RS & SR) her bir oranı) (R) (F)",
+      "aktif_madde": "fenvalerate",
+      "mrl": 0.3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151010",
+      "urun_etiketi": "Sofralık Üzüm (kurutulmuş)",
+      "aktif_madde_ham": "Fluoride iyonu",
+      "aktif_madde": "fluoride iyonu",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fluazifop-P (fluazifop tüm bileşik izomerleri, esterleri ve konjugeleri toplamı, fluazifop cinsinden)",
+      "aktif_madde": "fluazifop-p",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Etoxazole",
+      "aktif_madde": "etoxazole",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fenazaquin (F)",
+      "aktif_madde": "fenazaquin",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fenbuconazole (bileşik enantiyomerler toplamı)",
+      "aktif_madde": "fenbuconazole",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Myclobutanil (bileşen izomerler toplamı) (R)",
+      "aktif_madde": "myclobutanil",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fenhexamid (F)",
+      "aktif_madde": "fenhexamid",
+      "mrl": 15,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Metrafenone (F)",
+      "aktif_madde": "metrafenone",
+      "mrl": 7,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fenoxycarb",
+      "aktif_madde": "fenoxycarb",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Emamectin B1a Ve Tuzları, Emamectin B1a Cinsinden (serbest form) (R) (F)",
+      "aktif_madde": "emamectin",
+      "mrl": 0.04,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Flazasulfuron",
+      "aktif_madde": "flazasulfuron",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Flupyradifurone",
+      "aktif_madde": "flupyradifurone",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": "Ayrıca, Difluoroacetic Acid (DFA) dikkate alınır."
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Metalaxyl Ve Metalaxyl-M (metalaxyl-M dahil diğer bileşik izomer karışımları ile birlikte metalaxyl (izomerler toplamı)) (R)",
+      "aktif_madde": "metalaxyl ve metalaxyl-m",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Methoxyfenozide (F)",
+      "aktif_madde": "methoxyfenozide",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Flutriafol",
+      "aktif_madde": "flutriafol",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fluxapyroxad",
+      "aktif_madde": "fluxapyroxad",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Lufenuron (Bileşen izomerlerin herhangi bir oranı) (F)",
+      "aktif_madde": "lufenuron",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Folpet (Folpet ve phtalimide toplamı, folpet cinsinden) (R)",
+      "aktif_madde": "folpet",
+      "mrl": 20,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Forchlorfenuron",
+      "aktif_madde": "forchlorfenuron",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Iprovalicarb",
+      "aktif_madde": "iprovalicarb",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Formetanate (formetanate ve tuzları toplamı formetanate cinsinden (hydrochloride))",
+      "aktif_madde": "formetanate",
+      "mrl": 0.1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Glufosinate (glufosinate izomerleri, tuzları ve metebolitleri= 3-[hydroxy(methyl)phosphinoyl]propionic acid (MPP) ve N-acetyl-glufosinate (NAG) toplamı, glufosinate cinsinden)",
+      "aktif_madde": "glufosinate",
+      "mrl": 0.15,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Kresoxim-methyl (R)",
+      "aktif_madde": "kresoxim-methyl",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Glyphosate",
+      "aktif_madde": "glyphosate",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": "Ayrıca, Trimethyl-sulfonium Katyonu Dikkate Alınır."
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Haloxyfop (Haloxyfop, esterleri, tuzları ve konjügeleri toplamı haloxyfop cinsinden ( Herhangi bir oranda R- ve S- isomerler toplamı)) (F) (R)",
+      "aktif_madde": "haloxyfop",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Lambda-cyhalothrin (gamma-cyhalothrin içeren) (R,S ve S,R izomerleri toplamı) (F)",
+      "aktif_madde": "lambda-cyhalothrin",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Hexythiazox",
+      "aktif_madde": "hexythiazox",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Indoxacarb (indoxacarb ve R enantiomeri toplamı) (F)",
+      "aktif_madde": "indoxacarb",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Iminoctadine tris(albesilate)",
+      "aktif_madde": "iminoctadine tris",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Indaziflam",
+      "aktif_madde": "indaziflam",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Phosphonic Acid Ve Tuzları Phosphonic Acid Cinsinden (R)",
+      "aktif_madde": "phosphonic acid",
+      "mrl": 150,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": "25.04.2025 Tarihinden İtibaren Uygulanır."
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Flubendiamide (F)",
+      "aktif_madde": "flubendiamide",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Fludioxonil (R) (F)",
+      "aktif_madde": "fludioxonil",
+      "mrl": 4,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Malathion (malathion ve malaoxon toplamı; malathion cinsinden)",
+      "aktif_madde": "malathion",
+      "mrl": 0.02,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fluopicolide",
+      "aktif_madde": "fluopicolide",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Mandipropamid (bileşik izomerlerin herhangi bir oranı)",
+      "aktif_madde": "mandipropamid",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Fluopyram (R)",
+      "aktif_madde": "fluopyram",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Acrinathrin (F)",
+      "aktif_madde": "acrinathrin",
+      "mrl": 0.1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Pyrethrins",
+      "aktif_madde": "pyrethrins",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bacillus Thuringiensis Subsp. Kurstaki Strain ABTS-351",
+      "aktif_madde": "bacillus thuringiensis subsp. kurstaki strain abts-351",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bacillus Thuringiensis",
+      "aktif_madde": "bacillus thuringiensis",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g"
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Pyrimethanil (R)",
+      "aktif_madde": "pyrimethanil",
+      "mrl": 5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bacillus Thuringiensis Subsp. Kurstaki Strain PB-54",
+      "aktif_madde": "bacillus thuringiensis subsp. kurstaki strain pb-54",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bacillus Thuringiensis Subsp. Kurstaki Strain SA-11",
+      "aktif_madde": "bacillus thuringiensis subsp. kurstaki strain sa-11",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bacillus Thuringiensis Aizawai Strain ABTS-1857",
+      "aktif_madde": "bacillus thuringiensis aizawai strain abts-1857",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bacillus Thuringiensis Var. Kurstaki (serotype H3a 3b 3c)",
+      "aktif_madde": "bacillus thuringiensis var. kurstaki",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": "Hasatta Maksimum Mikroorganizma 1x10^5 CFU/g"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Pyriproxyfen (F)",
+      "aktif_madde": "pyriproxyfen",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Carfentrazone-ethyl Ve Carfentrazone Toplamı (carfentrazone-ethyl cinsinden) (R)",
+      "aktif_madde": "carfentrazone-ethyl",
+      "mrl": 0.02,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Tebufenpyrad (F)",
+      "aktif_madde": "tebufenpyrad",
+      "mrl": 0.6,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "MCPA ve MCPB (tuzları, esterleri ve konjuge formları dahil MCPA, MCPB; MCPA cinsinden) (F) (R)",
+      "aktif_madde": "mcpa ve mcpb",
+      "mrl": 0.05,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Mefentrifluconazole",
+      "aktif_madde": "mefentrifluconazole",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Fosetyl-Al (fosetyl ve phosphonic asit ve tuzları toplamı; fosetyl cinsinden)",
+      "aktif_madde": "fosetyl-al",
+      "mrl": 200,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": "25.04.2025 Tarihinden İtibaren 'Phosphonic Acid Ve Tuzları Phosphonic Acid Cinsinden (R)' kalıntı tanımı için belirlenen MRL uygulanır."
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Ethirimol (A) (F) (R )",
+      "aktif_madde": "ethirimol",
+      "mrl": 0.4,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": "Bu Aktif Madde EK-4'te Yer Almaktadır. Ancak Bupirimate Kullanımından Kaynaklı Metabolit Olması Nedeniyle Bupirimate Kullanılan Ürünler İçin Bu MRL'ler Eklenmiştir."
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Etofenprox (F)",
+      "aktif_madde": "etofenprox",
+      "mrl": 4,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fluvalinate (izomerler toplamı) (F) tau-fluvalinate kullanımından kaynaklanan",
+      "aktif_madde": "fluvalinate",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Famoxadone (F)",
+      "aktif_madde": "famoxadone",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fenpyroximate (A) (F) (R)",
+      "aktif_madde": "fenpyroximate",
+      "mrl": 0.3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Trimethyl-sulfonium katyonu (glyphosate kullanımı sonucu oluşan) (F)",
+      "aktif_madde": "trimethyl-sulfonium katyonu",
+      "mrl": 0.05,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": "Glyphosate Kullanımından Kaynaklı"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Valifenalate (R) (A)",
+      "aktif_madde": "valifenalate",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Zoxamide",
+      "aktif_madde": "zoxamide",
+      "mrl": 5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Trifloxystrobin (F) (R)",
+      "aktif_madde": "trifloxystrobin",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Acequinocyl (F)",
+      "aktif_madde": "acequinocyl",
+      "mrl": 0.8,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Acetamiprid (R)",
+      "aktif_madde": "acetamiprid",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": "Bakanlığımızın 19.03.2025 Tarih Ve 18480997 Sayılı Olur'u İle Acetamiprid Aktif Maddesi Ve Karışımlarını İçeren Bitki Koruma Ürünleri İle İlgili Olarak Tavsiyesinin 31.03.2025 İtibari İle Kullanımının Sonlandırılmasına Karar Verilmiştir."
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Thiophanate-methyl (R)",
+      "aktif_madde": "thiophanate-methyl",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Tetraconazole (bileşik izomerlerin toplamı) (F)",
+      "aktif_madde": "tetraconazole",
+      "mrl": 0.07,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Ametoctradin (R) (F)",
+      "aktif_madde": "ametoctradin",
+      "mrl": 6,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Tebufenozide (F)",
+      "aktif_madde": "tebufenozide",
+      "mrl": 4,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Azadirachtin",
+      "aktif_madde": "azadirachtin",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Tebuconazole (R)",
+      "aktif_madde": "tebuconazole",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151010",
+      "urun_etiketi": "Sofralık Üzüm (kurutulmuş)",
+      "aktif_madde_ham": "Sulfuryl fluoride",
+      "aktif_madde": "sulfuryl fluoride",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Azoxystrobin",
+      "aktif_madde": "azoxystrobin",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bakır bileşikleri (Copper compounds)",
+      "aktif_madde": "bakır bileşikleri",
+      "mrl": 50,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Benalaxyl (Benalaxyl-M dahil diğer bileşik izomer karışımları ile birlikte (izomerler toplamı))",
+      "aktif_madde": "benalaxyl",
+      "mrl": 0.3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Sulfoxaflor (İzomerleri toplamı)",
+      "aktif_madde": "sulfoxaflor",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bifenazate (bifenazate ve bifenazate-diazene toplamı bifenazate cinsinden) (F)",
+      "aktif_madde": "bifenazate",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": "Kullanım Sonlandırma Tarihi: 31.12.2025"
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Spiroxamine (izomerler toplamı) (A) (R)",
+      "aktif_madde": "spiroxamine",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Spirotetramat ve spirotetramat-enol toplamı; spirotetramat cinsinden (R)",
+      "aktif_madde": "spirotetramat",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Boscalid (R) (F)",
+      "aktif_madde": "boscalid",
+      "mrl": 5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bupirimate (A) (F) (R)",
+      "aktif_madde": "bupirimate",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": "Ayrıca, Ethirimol (A) (F) (R ) dikkate alınır."
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Spirodiclofen (F)",
+      "aktif_madde": "spirodiclofen",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Captan (Captan ve THPI toplamı, captan cinsinden (R))",
+      "aktif_madde": "captan",
+      "mrl": 0.02,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Sodium 5-nitroguaiacolate, sodium o-nitrophenolate ve sodium p-nitrophenolate (Sodium 5-nitroguaiacolate, sodium o-nitrophenolate ve sodium p-nitrophenolate toplamı, sodium 5-nitroguaiacolate cinsinden)",
+      "aktif_madde": "sodium 5-nitroguaiacolate, sodium o-nitrophenolate ve sodium p-nitrophenolate",
+      "mrl": 0.03,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Chlorantraniliprole (F)",
+      "aktif_madde": "chlorantraniliprole",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Chlormequat (chlormequat ve tuzları toplamı, chlormequat-chloride cinsinden)",
+      "aktif_madde": "chlormequat",
+      "mrl": 0.05,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Spinetoram (Spinetoram-J ve spinetoram-L toplamı) (F) (A)",
+      "aktif_madde": "spinetoram",
+      "mrl": 0.4,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Spinosad (spinosad, spinosyn A ve spinosyn D toplamı) (F)",
+      "aktif_madde": "spinosad",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Clofentezine (R)",
+      "aktif_madde": "clofentezine",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Quizalofop (quizalofop, tuzları, esterleri (propaquizafop içeren) ve konjügeleri toplamı, quizalofop cinsinden (bileşen izomerlerin herhangi bir oranı))",
+      "aktif_madde": "quizalofop",
+      "mrl": 0.02,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Cyazofamid",
+      "aktif_madde": "cyazofamid",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Cyflufenamid (cyflufenamid (Z- izomer) ve E-izomer toplamı cyflufenamid cinsinden) (A) (R )",
+      "aktif_madde": "cyflufenamid",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Pyriofenone",
+      "aktif_madde": "pyriofenone",
+      "mrl": 0.8,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Cymoxanil",
+      "aktif_madde": "cymoxanil",
+      "mrl": 0.05,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Cypermethrin (diğer bileşik izomer karışımları dahil cypermethrin (izomerleri toplamı)) (F)",
+      "aktif_madde": "cypermethrin",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Cyproconazole (F)",
+      "aktif_madde": "cyproconazole",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Cyprodinil (F) (R)",
+      "aktif_madde": "cyprodinil",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Deltamethrin (cis-deltamethrin) (F)",
+      "aktif_madde": "deltamethrin",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Pyraclostrobin (F)",
+      "aktif_madde": "pyraclostrobin",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Proquinazid (F) (R )",
+      "aktif_madde": "proquinazid",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Difenoconazole",
+      "aktif_madde": "difenoconazole",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Oxathiapiprolin",
+      "aktif_madde": "oxathiapiprolin",
+      "mrl": 0.7,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Diflufenican (F)",
+      "aktif_madde": "diflufenican",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Penconazole (bileşen isomerleri toplamı) (F)",
+      "aktif_madde": "penconazole",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Difluoroacetic Acid (DFA)",
+      "aktif_madde": "difluoroacetic acid",
+      "mrl": 0.15,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": "Flupyradifurone Kullanımından Kaynaklanan"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Dimethomorph (izomerleri toplamı)",
+      "aktif_madde": "dimethomorph",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Oxyfluorfen",
+      "aktif_madde": "oxyfluorfen",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Dithianon",
+      "aktif_madde": "dithianon",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Dithiocarbamates (maneb, mancozeb, metiram, propineb, thiram ve ziram dahil dithiocarbamatlar; CS2 cinsinden) (1) (2)",
+      "aktif_madde": "dithiocarbamates",
+      "mrl": 5,
+      "loq": false,
+      "ek_bilgi": "me",
+      "tarih": "2025-01-07",
+      "tarih_ham": "07.01.2025 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Meptyldinocap (2,4 DNOPC ve 2,4 DNOP toplamı; meptyldinocap cinsinden)",
+      "aktif_madde": "meptyldinocap",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2024-03-18",
+      "tarih_ham": "18.03.2024",
+      "not": "Ocak 2024 Kalıntı MİDGARD İsimli İlacın Komisyon Kararı İle MRL Oranı Güncellenmiştir."
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fluazifop-P (fluazifop tüm bileşen izomerleri, esterleri ve konjugeleri toplamı, fluazifop cinsinden)",
+      "aktif_madde": "fluazifop-p",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fenvalerate (Esfenvalerate'yi içeren ilgili izomerlerin herhangi oranı (RR,SS,RS ve SR)) (F) (R)",
+      "aktif_madde": "fenvalerate",
+      "mrl": 0.3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fenazaquin (F)",
+      "aktif_madde": "fenazaquin",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": "27.01.2022 Tarihi İtibariyle Uygulanacak MRL: 0,01*"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Famoxadone (F)",
+      "aktif_madde": "famoxadone",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": "07.01.2025 Tarihli RG Kararıyla Sofralık Üzüm Ve Şaraplık Üzüm Olarak İki Ayrı MRL Belirlenmiştir."
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Dithiocarbamates (maneb, mancozeb, metiram, propineb, thiram ve ziram dahil dithiocarbamatlar; CS2 cinsinden) (1) (2)",
+      "aktif_madde": "dithiocarbamates",
+      "mrl": 5,
+      "loq": false,
+      "ek_bilgi": "ma.mz,me,pr,t,z",
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Dithianon",
+      "aktif_madde": "dithianon",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Fenpyroximate (A) (F) (R)",
+      "aktif_madde": "fenpyroximate",
+      "mrl": 0.3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": "07.01.2025 Tarihli RG Kararıyla Üzüm Başlığı Altında Tek Bir MRL Belirlenmiştir."
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fenoxycarb (F)",
+      "aktif_madde": "fenoxycarb",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fenhexamid (F)",
+      "aktif_madde": "fenhexamid",
+      "mrl": 15,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Flutriafol",
+      "aktif_madde": "flutriafol",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Flusilazole (F) (R)",
+      "aktif_madde": "flusilazole",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": "Kullanım Sonlandırma Tarihi: 30.06.2022"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Flupyradifurone",
+      "aktif_madde": "flupyradifurone",
+      "mrl": 0.8,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fenbuconazole (bileşen izomerler)",
+      "aktif_madde": "fenbuconazole",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Dimethomorph (izomerleri toplamı)",
+      "aktif_madde": "dimethomorph",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Diflufenican (F)",
+      "aktif_madde": "diflufenican",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Difenoconazole",
+      "aktif_madde": "difenoconazole",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Deltamethrin (cis-deltamethrin) (F)",
+      "aktif_madde": "deltamethrin",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Flazasulfuron",
+      "aktif_madde": "flazasulfuron",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fluopicolide",
+      "aktif_madde": "fluopicolide",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fluxapyroxad",
+      "aktif_madde": "fluxapyroxad",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Formetanate (formetanate ve tuzları toplamı formetanate cinsinden (hydrochloride))",
+      "aktif_madde": "formetanate",
+      "mrl": 0.1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Forchlorfenuron",
+      "aktif_madde": "forchlorfenuron",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Folpet ve phtalimide toplamı, folpet cinsinden (R)",
+      "aktif_madde": "folpet ve phtalimide toplamı, folpet cinsinden",
+      "mrl": 20,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Fluopyram (R)",
+      "aktif_madde": "fluopyram",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151010",
+      "urun_etiketi": "Sofralık Üzüm (kurutulmuş)",
+      "aktif_madde_ham": "Fluoride iyonu (Sulfuryl fluoride kullanımından kaynaklı)",
+      "aktif_madde": "fluoride iyonu",
+      "mrl": 2,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Emamectinbenzoat B1a (Emamectin cinsinden)",
+      "aktif_madde": "emamectinbenzoat",
+      "mrl": 0.05,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Etoxazole (F)",
+      "aktif_madde": "etoxazole",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Metrafenone (F)",
+      "aktif_madde": "metrafenone",
+      "mrl": 7,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Myclobutanil (bileşen izomerler toplamı) (R)",
+      "aktif_madde": "myclobutanil",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Methoxyfenozide (F)",
+      "aktif_madde": "methoxyfenozide",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Metalaxyl ve metalaxyl-M (metalaxyl-M dahil diğer bileşik izomer karışımları ile birlikte metalaxyl (izomerler toplamı))",
+      "aktif_madde": "metalaxyl ve metalaxyl-m",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Meptyldinocap (2,4 DNOPC ve 2,4 DNOP toplamı; meptyldinocap cinsinden)",
+      "aktif_madde": "meptyldinocap",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Penconazole (bileşen isomerleri toplamı) (F)",
+      "aktif_madde": "penconazole",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Oxathiapiprolin",
+      "aktif_madde": "oxathiapiprolin",
+      "mrl": 0.7,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Oxyfluorfen",
+      "aktif_madde": "oxyfluorfen",
+      "mrl": 0.1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Imazalil (bileşen izomerlerin herhangi bir oranı) (R)",
+      "aktif_madde": "imazalil",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Indoxacarb (indoxacarb ve R enantiomeri toplamı) (F)",
+      "aktif_madde": "indoxacarb",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Indaziflam",
+      "aktif_madde": "indaziflam",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Iminoctadine trisalbesilate",
+      "aktif_madde": "iminoctadine trisalbesilate",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Glufosinate (glufosinate izomerleri, tuzları ve metebolitleri= 3-[hydroxy(methyl)phosphinoyl]propionic acid (MPP) ve N-acetyl-glufosinate (NAG) toplamı, glufosinate cinsinden)",
+      "aktif_madde": "glufosinate",
+      "mrl": 0.15,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Glyphosate",
+      "aktif_madde": "glyphosate",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Hexythiazox",
+      "aktif_madde": "hexythiazox",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Haloxyfop (Haloxyfop, esterleri, tuzları ve konjügeleri toplamı haloxyfop cinsinden ( Herhangi bir oranda R- ve S- isomerler toplamı)) (F) (R)",
+      "aktif_madde": "haloxyfop",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Lufenuron (Bileşen izomerlerin herhangi bir oranı) (F)",
+      "aktif_madde": "lufenuron",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Mandipropamid (bileşen izomerlerin herhangi bir oranı)",
+      "aktif_madde": "mandipropamid",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Malathion (malathion ve malaoxon toplamı; malathion cinsinden)",
+      "aktif_madde": "malathion",
+      "mrl": 0.02,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Iprovalicarb",
+      "aktif_madde": "iprovalicarb",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Lambda-cyhalothrin (gamma-cyhalothrin içeren) (R,S ve S,R izomerleri toplamı) (F)",
+      "aktif_madde": "lambda-cyhalothrin",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Kresoxim-methyl (R)",
+      "aktif_madde": "kresoxim-methyl",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Tetraconazole (F)",
+      "aktif_madde": "tetraconazole",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Thiophanate-methyl (R)",
+      "aktif_madde": "thiophanate-methyl",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Tebuconazole (R)",
+      "aktif_madde": "tebuconazole",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Tepraloxydim (tepraloxydim ve 3-(tetrahydro-pyran-4-yl)-glutaric asit veya 3-hydroxy-(tetrahydro-pyran-4-yl)-glutaric aside hidrolize olabilen metabolitleri toplamı; tepraloxydim cinsinden)",
+      "aktif_madde": "tepraloxydim",
+      "mrl": 0.1,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": "Kullanım Sonlandırma Tarihi: 30.06.2022"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Tebufenpyrad (F)",
+      "aktif_madde": "tebufenpyrad",
+      "mrl": 0.6,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Tebufenozide (F)",
+      "aktif_madde": "tebufenozide",
+      "mrl": 4,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Trifloxystrobin (F) (R)",
+      "aktif_madde": "trifloxystrobin",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Zoxamide",
+      "aktif_madde": "zoxamide",
+      "mrl": 5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Valifenalate",
+      "aktif_madde": "valifenalate",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Trimethyl-sulfonium katyonu (glyphosate kullanımı sonucu oluşan) (F)",
+      "aktif_madde": "trimethyl-sulfonium katyonu",
+      "mrl": 0.05,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Tolclofos-methyl (F)",
+      "aktif_madde": "tolclofos-methyl",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Pyriofenone",
+      "aktif_madde": "pyriofenone",
+      "mrl": 0.8,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Pyrimethanil (R)",
+      "aktif_madde": "pyrimethanil",
+      "mrl": 5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Quizalofop (quizalofop, tuzları, esterleri (propaquizafop içeren) ve konjügeleri toplamı, quizalofop cinsinden (bileşen izomerlerin herhangi bir oranı))",
+      "aktif_madde": "quizalofop",
+      "mrl": 0.02,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Pyridaben (F)",
+      "aktif_madde": "pyridaben",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Proquinazid (R )",
+      "aktif_madde": "proquinazid",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Pyraclostrobin (F)",
+      "aktif_madde": "pyraclostrobin",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Spirotetramat ve spirotetramat-enol toplamı; spirotetramat cinsinden (R)",
+      "aktif_madde": "spirotetramat",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Spirodiclofen (F)",
+      "aktif_madde": "spirodiclofen",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151010",
+      "urun_etiketi": "Sofralık Üzüm (kurutulmuş)",
+      "aktif_madde_ham": "Sulfuryl fluoride",
+      "aktif_madde": "sulfuryl fluoride",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Sulfoxaflor (İzomerleri toplamı)",
+      "aktif_madde": "sulfoxaflor",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Spiroxamine (izomerler toplamı) (A) (R)",
+      "aktif_madde": "spiroxamine",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Sodium 5-nitroguaiacolate, sodium o-nitrophenolate ve sodium p-nitrophenolate (Sodium 5-nitroguaiacolate, sodium o-nitrophenolate ve sodium p-nitrophenolate toplamı, sodium 5-nitroguaiacolate cinsinden)",
+      "aktif_madde": "sodium 5-nitroguaiacolate, sodium o-nitrophenolate ve sodium p-nitrophenolate",
+      "mrl": 0.03,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Spinosad (spinosad, spinosyn A ve spinosyn D toplamı) (F)",
+      "aktif_madde": "spinosad",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Spinetoram (Spinetoram-J ve spinetoram-L toplamı) (F) (A)",
+      "aktif_madde": "spinetoram",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": "27.01.2022 Tarihi İtibariyle Uygulanacak MRL: 0,4"
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Fosetyl-Al (fosetyl ve phosphonic asit ve tuzları toplamı; fosetyl cinsinden)",
+      "aktif_madde": "fosetyl-al",
+      "mrl": 100,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Chlormequat (chlormequat ve tuzları toplamı, chlormequat-chloride cinsinden)",
+      "aktif_madde": "chlormequat",
+      "mrl": 0.05,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Clofentezine (R)",
+      "aktif_madde": "clofentezine",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Captan (Captan ve THPI toplamı, captan cinsinden (R))",
+      "aktif_madde": "captan",
+      "mrl": 0.02,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bromuconazole (diasteroisomerler toplamı) (F)",
+      "aktif_madde": "bromuconazole",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bupirimate",
+      "aktif_madde": "bupirimate",
+      "mrl": 1.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Chlorantraniliprole (DPX E-2Y45) (F)",
+      "aktif_madde": "chlorantraniliprole",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Cypermethrin (diğer bileşik izomer karışımları dahil cypermethrin (izomerleri toplamı)) (F)",
+      "aktif_madde": "cypermethrin",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Cymoxanil",
+      "aktif_madde": "cymoxanil",
+      "mrl": 0.3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Cyprodinil (F) (R)",
+      "aktif_madde": "cyprodinil",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Cyproconazole (F)",
+      "aktif_madde": "cyproconazole",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Cyazofamid",
+      "aktif_madde": "cyazofamid",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Cyflufenamid (cyflufenamid Z- izomeri ve E-izomerinin toplamı)",
+      "aktif_madde": "cyflufenamid",
+      "mrl": 0.2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Ametoctradin (R)",
+      "aktif_madde": "ametoctradin",
+      "mrl": 6,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Azadirachtin",
+      "aktif_madde": "azadirachtin",
+      "mrl": 1,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Acetamiprid (R)",
+      "aktif_madde": "acetamiprid",
+      "mrl": 0.5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Acequinocyl",
+      "aktif_madde": "acequinocyl",
+      "mrl": 0.3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Abamectin (Avermectin B1a, avermectin B1b ve avermectin B1a'nın delta-8,9 izomeri toplamı, avermectin B1a cinsinden) (F) (R )",
+      "aktif_madde": "abamectin",
+      "mrl": 0.01,
+      "loq": true,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": "Komisyon Kararına İstinaden 31.12.2023 Tarihi İtibari İle Kullanımı Sonlandırılmıştır."
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bifenazate (bifenazate ve bifenazate-diazene toplamı bifenazate cinsinden) (F)",
+      "aktif_madde": "bifenazate",
+      "mrl": 0.7,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Boscalid (F) (R) (A)",
+      "aktif_madde": "boscalid",
+      "mrl": 5,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Azoxystrobin",
+      "aktif_madde": "azoxystrobin",
+      "mrl": 3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Benalaxyl (Benalaxyl-M dahil diğer bileşik izomer karışımları ile birlikte (izomerler toplamı))",
+      "aktif_madde": "benalaxyl",
+      "mrl": 0.3,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151000",
+      "urun_etiketi": "Üzüm",
+      "aktif_madde_ham": "Bakır bileşikleri (Copper compounds)",
+      "aktif_madde": "bakır bileşikleri",
+      "mrl": 50,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Flubendiamide (F)",
+      "aktif_madde": "flubendiamide",
+      "mrl": 2,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    },
+    {
+      "urun_kodu": "0151020",
+      "urun_etiketi": "Şaraplık Üzüm",
+      "aktif_madde_ham": "Fludioxonil (R) (F)",
+      "aktif_madde": "fludioxonil",
+      "mrl": 4,
+      "loq": false,
+      "ek_bilgi": null,
+      "tarih": "2021-09-27",
+      "tarih_ham": "27.09.2021 (R.G.)",
+      "not": null
+    }
+  ]
+}

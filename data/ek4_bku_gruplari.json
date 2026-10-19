@@ -1,0 +1,512 @@
+{
+  "kaynak": "K034 — TAGEM Bağ Entegre Mücadele Teknik Talimatı, Ek-4 (s.111-124)",
+  "baslik": "Bağ Entegre Mücadele Programında Kullanılacak Bitki Koruma Ürünleri — grup bazında özet",
+  "veriTuru": "resmi-kaynak",
+  "cikarimYontemi": "Ek-4 tablolarındaki 'Etki mekanizması' ve 'Son ilaçlama-hasat arası süre (gün)' kolonlarından grup bazında toplulaştırıldı.",
+  "ilkeler": [
+    "Ticari ürün adı ve doz BİLİNÇLİ OLARAK verilmemiştir — ruhsatlı ürün ve doz için BKÜ veritabanına bakılmalıdır.",
+    "PHI değerleri aynı grup içindeki ürünler arasında değişir; motor EN UZUN (phiMax) değeri güvenli taraf olarak kullanmalıdır.",
+    "Sezonluk maksimum uygulama sayısı Ek-4'te YER ALMAZ — bu veri bu kaynaktan türetilemez."
+  ],
+  "etmenler": {
+    "salkim-guvesi": {
+      "ek4Adi": "Salkım güvesi",
+      "sistem": "IRAC",
+      "gruplar": {
+        "11A": {
+          "sistem": "IRAC",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynakta": false,
+          "urunSayisi": 8
+        },
+        "15": {
+          "sistem": "IRAC",
+          "phiMin": 14,
+          "phiMax": 21,
+          "phiKaynakta": true,
+          "urunSayisi": 2
+        },
+        "18": {
+          "sistem": "IRAC",
+          "phiMin": 7,
+          "phiMax": 21,
+          "phiKaynakta": true,
+          "urunSayisi": 2
+        },
+        "18B": {
+          "sistem": "IRAC",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynakta": false,
+          "urunSayisi": 1
+        },
+        "28": {
+          "sistem": "IRAC",
+          "phiMin": 14,
+          "phiMax": 28,
+          "phiKaynakta": true,
+          "urunSayisi": 3
+        },
+        "3A": {
+          "sistem": "IRAC",
+          "phiMin": 7,
+          "phiMax": 14,
+          "phiKaynakta": true,
+          "urunSayisi": 2
+        },
+        "5": {
+          "sistem": "IRAC",
+          "phiMin": 7,
+          "phiMax": 7,
+          "phiKaynakta": true,
+          "urunSayisi": 3
+        },
+        "7B": {
+          "sistem": "IRAC",
+          "phiMin": 21,
+          "phiMax": 21,
+          "phiKaynakta": true,
+          "urunSayisi": 1
+        }
+      },
+      "enUzunPHI": 28,
+      "enKisaPHI": 7
+    },
+    "bag-kullemesi": {
+      "ek4Adi": "Bağ Küllemesi",
+      "sistem": "FRAC",
+      "gruplar": {
+        "1": {
+          "sistem": "FRAC",
+          "phiMin": 14,
+          "phiMax": 14,
+          "phiKaynakta": true,
+          "urunSayisi": 1
+        },
+        "11": {
+          "sistem": "FRAC",
+          "phiMin": 14,
+          "phiMax": 35,
+          "phiKaynakta": true,
+          "urunSayisi": 8
+        },
+        "13": {
+          "sistem": "FRAC",
+          "phiMin": 28,
+          "phiMax": 28,
+          "phiKaynakta": true,
+          "urunSayisi": 1
+        },
+        "3": {
+          "sistem": "FRAC",
+          "phiMin": 14,
+          "phiMax": 21,
+          "phiKaynakta": true,
+          "urunSayisi": 9
+        },
+        "5": {
+          "sistem": "FRAC",
+          "phiMin": 14,
+          "phiMax": 14,
+          "phiKaynakta": true,
+          "urunSayisi": 2
+        },
+        "50": {
+          "sistem": "FRAC",
+          "phiMin": 28,
+          "phiMax": 28,
+          "phiKaynakta": true,
+          "urunSayisi": 1
+        },
+        "7": {
+          "sistem": "FRAC",
+          "phiMin": 14,
+          "phiMax": 28,
+          "phiKaynakta": true,
+          "urunSayisi": 2
+        },
+        "8": {
+          "sistem": "FRAC",
+          "phiMin": 7,
+          "phiMax": 7,
+          "phiKaynakta": true,
+          "urunSayisi": 1
+        },
+        "BM01": {
+          "sistem": "FRAC",
+          "phiMin": 14,
+          "phiMax": 14,
+          "phiKaynakta": true,
+          "urunSayisi": 3
+        },
+        "BM02": {
+          "sistem": "FRAC",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynakta": false,
+          "urunSayisi": 1
+        },
+        "M2": {
+          "sistem": "FRAC",
+          "phiMin": 7,
+          "phiMax": 7,
+          "phiKaynakta": true,
+          "urunSayisi": 6
+        },
+        "U6": {
+          "sistem": "FRAC",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynakta": false,
+          "urunSayisi": 1
+        }
+      },
+      "enUzunPHI": 35,
+      "enKisaPHI": 7
+    },
+    "bag-mildiyosu": {
+      "ek4Adi": "Bağ Mildiyösü",
+      "sistem": "FRAC",
+      "gruplar": {
+        "11": {
+          "sistem": "FRAC",
+          "phiMin": 7,
+          "phiMax": 21,
+          "phiKaynakta": true,
+          "urunSayisi": 7
+        },
+        "21": {
+          "sistem": "FRAC",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynakta": false,
+          "urunSayisi": 1
+        },
+        "22": {
+          "sistem": "FRAC",
+          "phiMin": 21,
+          "phiMax": 28,
+          "phiKaynakta": true,
+          "urunSayisi": 3
+        },
+        "27": {
+          "sistem": "FRAC",
+          "phiMin": 7,
+          "phiMax": 7,
+          "phiKaynakta": true,
+          "urunSayisi": 2
+        },
+        "3": {
+          "sistem": "FRAC",
+          "phiMin": 14,
+          "phiMax": 21,
+          "phiKaynakta": true,
+          "urunSayisi": 5
+        },
+        "4": {
+          "sistem": "FRAC",
+          "phiMin": 42,
+          "phiMax": 42,
+          "phiKaynakta": true,
+          "urunSayisi": 1
+        },
+        "40": {
+          "sistem": "FRAC",
+          "phiMin": 10,
+          "phiMax": 28,
+          "phiKaynakta": true,
+          "urunSayisi": 4
+        },
+        "45": {
+          "sistem": "FRAC",
+          "phiMin": 10,
+          "phiMax": 10,
+          "phiKaynakta": true,
+          "urunSayisi": 1
+        },
+        "49": {
+          "sistem": "FRAC",
+          "phiMin": 28,
+          "phiMax": 28,
+          "phiKaynakta": true,
+          "urunSayisi": 1
+        },
+        "BM02": {
+          "sistem": "FRAC",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynakta": false,
+          "urunSayisi": 1
+        },
+        "M1": {
+          "sistem": "FRAC",
+          "phiMin": 7,
+          "phiMax": 21,
+          "phiKaynakta": true,
+          "urunSayisi": 14
+        }
+      },
+      "enUzunPHI": 42,
+      "enKisaPHI": 7
+    },
+    "bag-maymuncuklari-ve-asma-hortumlubocegi": {
+      "ek4Adi": "Bağ Maymuncukları",
+      "sistem": "IRAC",
+      "gruplar": {
+        "3A": {
+          "sistem": "IRAC",
+          "phiMin": 7,
+          "phiMax": 7,
+          "phiKaynakta": true,
+          "urunSayisi": 1
+        }
+      },
+      "enUzunPHI": 7,
+      "enKisaPHI": 7
+    },
+    "bag-thripsleri": {
+      "ek4Adi": "Bağ Thripsleri",
+      "sistem": "IRAC",
+      "gruplar": {
+        "1A": {
+          "sistem": "IRAC",
+          "phiMin": 90,
+          "phiMax": 90,
+          "phiKaynakta": true,
+          "urunSayisi": 1
+        },
+        "24C": {
+          "sistem": "IRAC",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynakta": false,
+          "urunSayisi": 1
+        },
+        "5": {
+          "sistem": "IRAC",
+          "phiMin": 7,
+          "phiMax": 14,
+          "phiKaynakta": true,
+          "urunSayisi": 2
+        }
+      },
+      "enUzunPHI": 90,
+      "enKisaPHI": 7
+    },
+    "bag-yaprakuyuzu": {
+      "ek4Adi": "Bağ yaprakuyuzu",
+      "sistem": "IRAC",
+      "gruplar": {
+        "M2": {
+          "sistem": "IRAC",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynakta": false,
+          "urunSayisi": 3
+        }
+      },
+      "enUzunPHI": null,
+      "enKisaPHI": null
+    },
+    "unlubit": {
+      "ek4Adi": "Unlubit",
+      "sistem": "IRAC",
+      "gruplar": {
+        "1B": {
+          "sistem": "IRAC",
+          "phiMin": 7,
+          "phiMax": 7,
+          "phiKaynakta": true,
+          "urunSayisi": 2
+        },
+        "23": {
+          "sistem": "IRAC",
+          "phiMin": 14,
+          "phiMax": 14,
+          "phiKaynakta": true,
+          "urunSayisi": 1
+        },
+        "4C": {
+          "sistem": "IRAC",
+          "phiMin": 10,
+          "phiMax": 10,
+          "phiKaynakta": true,
+          "urunSayisi": 1
+        },
+        "4D": {
+          "sistem": "IRAC",
+          "phiMin": 14,
+          "phiMax": 14,
+          "phiKaynakta": true,
+          "urunSayisi": 1
+        }
+      },
+      "enUzunPHI": 14,
+      "enKisaPHI": 7
+    },
+    "ikinoktali-kirmiziorumcek": {
+      "ek4Adi": "İkinoktalı kırmızı örümcek",
+      "sistem": "IRAC",
+      "gruplar": {
+        "10A": {
+          "sistem": "IRAC",
+          "phiMin": 7,
+          "phiMax": 56,
+          "phiKaynakta": true,
+          "urunSayisi": 2
+        },
+        "10B": {
+          "sistem": "IRAC",
+          "phiMin": 7,
+          "phiMax": 7,
+          "phiKaynakta": true,
+          "urunSayisi": 1
+        },
+        "20B": {
+          "sistem": "IRAC",
+          "phiMin": 14,
+          "phiMax": 14,
+          "phiKaynakta": true,
+          "urunSayisi": 1
+        },
+        "20D": {
+          "sistem": "IRAC",
+          "phiMin": 14,
+          "phiMax": 14,
+          "phiKaynakta": true,
+          "urunSayisi": 2
+        },
+        "21A": {
+          "sistem": "IRAC",
+          "phiMin": 14,
+          "phiMax": 14,
+          "phiKaynakta": true,
+          "urunSayisi": 1
+        },
+        "23": {
+          "sistem": "IRAC",
+          "phiMin": 14,
+          "phiMax": 14,
+          "phiKaynakta": true,
+          "urunSayisi": 1
+        }
+      },
+      "enUzunPHI": 56,
+      "enKisaPHI": 7
+    },
+    "olu-kol-surgun-kurumasi": {
+      "ek4Adi": "Bağda Ölükol",
+      "sistem": "FRAC",
+      "gruplar": {
+        "11": {
+          "sistem": "FRAC",
+          "phiMin": 21,
+          "phiMax": 21,
+          "phiKaynakta": true,
+          "urunSayisi": 3
+        },
+        "3": {
+          "sistem": "FRAC",
+          "phiMin": 21,
+          "phiMax": 21,
+          "phiKaynakta": true,
+          "urunSayisi": 2
+        },
+        "M1": {
+          "sistem": "FRAC",
+          "phiMin": 7,
+          "phiMax": 14,
+          "phiKaynakta": true,
+          "urunSayisi": 4
+        }
+      },
+      "enUzunPHI": 21,
+      "enKisaPHI": 7
+    },
+    "bagda-kursuni-kuf": {
+      "ek4Adi": "Kurşuni küf",
+      "sistem": "FRAC",
+      "gruplar": {
+        "11": {
+          "sistem": "FRAC",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynakta": false,
+          "urunSayisi": 1
+        },
+        "12": {
+          "sistem": "FRAC",
+          "phiMin": 3,
+          "phiMax": 7,
+          "phiKaynakta": true,
+          "urunSayisi": 2
+        },
+        "17": {
+          "sistem": "FRAC",
+          "phiMin": 7,
+          "phiMax": 7,
+          "phiKaynakta": true,
+          "urunSayisi": 1
+        },
+        "9": {
+          "sistem": "FRAC",
+          "phiMin": 3,
+          "phiMax": 21,
+          "phiKaynakta": true,
+          "urunSayisi": 5
+        },
+        "BM01": {
+          "sistem": "FRAC",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynakta": false,
+          "urunSayisi": 1
+        },
+        "BM02": {
+          "sistem": "FRAC",
+          "phiMin": null,
+          "phiMax": null,
+          "phiKaynakta": false,
+          "urunSayisi": 6
+        }
+      },
+      "enUzunPHI": 21,
+      "enKisaPHI": 3
+    }
+  },
+  "eslesmeyenEtmenler": [
+    {
+      "ek4Adi": "Haziran böceği",
+      "gruplar": [
+        "1B"
+      ]
+    },
+    {
+      "ek4Adi": "Bağ yaprakpireleri",
+      "gruplar": [
+        "1B"
+      ]
+    },
+    {
+      "ek4Adi": "Bağ üvezi",
+      "gruplar": [
+        "1B"
+      ]
+    },
+    {
+      "ek4Adi": "Kahverengi koşnil",
+      "gruplar": [
+        "1B"
+      ]
+    },
+    {
+      "ek4Adi": "Bağ Alanlarında Bulunan Yabancı Otlar",
+      "gruplar": [
+        "1",
+        "2",
+        "9"
+      ]
+    }
+  ]
+}

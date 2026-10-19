@@ -1,0 +1,641 @@
+{
+  "kaynak": "K034 — TAGEM Bağ Entegre Mücadele Teknik Talimatı",
+  "ek": "Ek-3",
+  "sayfa": 110,
+  "baslik": "Bağda Zararlı, Hastalık ve Yabancı Otların Zararlı Olduğu Dönemler",
+  "aylar": [
+    "Ocak",
+    "Şubat",
+    "Mart",
+    "Nisan",
+    "Mayıs",
+    "Haziran",
+    "Temmuz",
+    "Ağustos",
+    "Eylül",
+    "Ekim",
+    "Kasım",
+    "Aralık"
+  ],
+  "ayNo": "1=Ocak … 12=Aralık",
+  "yontem": "Görsel Gantt takvimi 320 DPI render edilip her (etmen×ay) hücresinin gölge oranı ölçüldü; dark-frac>0,15 aktif kabul edildi. golgeYogunlugu ham ölçüm (şeffaflık için).",
+  "uyari": "Kaynak takvimde iki bar tonu (koyu/açık) var; anlamını açıklayan lejant belgede bulunmadığından yorum katılmadı — sadece aktif/pasif verildi. Nematodlar ve diğer yabancı otlar kaynakta işaretsizdir (aya bağlanmamış).",
+  "etmenler": [
+    {
+      "etmen": "Salkım güvesi",
+      "aktifAyNo": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "aktifAylar": [
+        "Mayıs",
+        "Haziran",
+        "Temmuz",
+        "Ağustos",
+        "Eylül"
+      ],
+      "aktifAralik": "Mayıs–Eylül",
+      "golgeYogunlugu": {
+        "Mayıs": 0.7,
+        "Haziran": 0.77,
+        "Temmuz": 0.77,
+        "Ağustos": 0.78,
+        "Eylül": 0.44
+      }
+    },
+    {
+      "etmen": "Bağ küllemesi",
+      "aktifAyNo": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "aktifAylar": [
+        "Mayıs",
+        "Haziran",
+        "Temmuz",
+        "Ağustos",
+        "Eylül"
+      ],
+      "aktifAralik": "Mayıs–Eylül",
+      "golgeYogunlugu": {
+        "Mayıs": 0.29,
+        "Haziran": 0.32,
+        "Temmuz": 0.32,
+        "Ağustos": 0.32,
+        "Eylül": 0.21
+      }
+    },
+    {
+      "etmen": "Bağ mildiyösü",
+      "aktifAyNo": [
+        4,
+        5,
+        6
+      ],
+      "aktifAylar": [
+        "Nisan",
+        "Mayıs",
+        "Haziran"
+      ],
+      "aktifAralik": "Nisan–Haziran",
+      "golgeYogunlugu": {
+        "Nisan": 0.7,
+        "Mayıs": 0.78,
+        "Haziran": 0.78
+      }
+    },
+    {
+      "etmen": "Asma ağustosböceği",
+      "aktifAyNo": [
+        4,
+        5,
+        6
+      ],
+      "aktifAylar": [
+        "Nisan",
+        "Mayıs",
+        "Haziran"
+      ],
+      "aktifAralik": "Nisan–Haziran",
+      "golgeYogunlugu": {
+        "Nisan": 0.29,
+        "Mayıs": 0.32,
+        "Haziran": 0.32
+      }
+    },
+    {
+      "etmen": "Bağ çadırtırtılı",
+      "aktifAyNo": [
+        3,
+        4
+      ],
+      "aktifAylar": [
+        "Mart",
+        "Nisan"
+      ],
+      "aktifAralik": "Mart–Nisan",
+      "golgeYogunlugu": {
+        "Mart": 0.76,
+        "Nisan": 0.77
+      }
+    },
+    {
+      "etmen": "Bağ filokserası",
+      "aktifAyNo": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "aktifAylar": [
+        "Mart",
+        "Nisan",
+        "Mayıs",
+        "Haziran",
+        "Temmuz",
+        "Ağustos",
+        "Eylül"
+      ],
+      "aktifAralik": "Mart–Eylül",
+      "golgeYogunlugu": {
+        "Mart": 0.32,
+        "Nisan": 0.39,
+        "Mayıs": 0.77,
+        "Haziran": 0.77,
+        "Temmuz": 0.76,
+        "Ağustos": 0.76,
+        "Eylül": 0.77
+      }
+    },
+    {
+      "etmen": "Bağ gözkurdu",
+      "aktifAyNo": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "aktifAylar": [
+        "Mayıs",
+        "Haziran",
+        "Temmuz",
+        "Ağustos",
+        "Eylül"
+      ],
+      "aktifAralik": "Mayıs–Eylül",
+      "golgeYogunlugu": {
+        "Mayıs": 0.33,
+        "Haziran": 0.33,
+        "Temmuz": 0.33,
+        "Ağustos": 0.33,
+        "Eylül": 0.33
+      }
+    },
+    {
+      "etmen": "Haziranböcekleri",
+      "aktifAyNo": [
+        3,
+        4,
+        5
+      ],
+      "aktifAylar": [
+        "Mart",
+        "Nisan",
+        "Mayıs"
+      ],
+      "aktifAralik": "Mart–Mayıs",
+      "golgeYogunlugu": {
+        "Mart": 0.78,
+        "Nisan": 0.78,
+        "Mayıs": 0.78
+      }
+    },
+    {
+      "etmen": "İkinoktalı kırmızıörümcek",
+      "aktifAyNo": [
+        3,
+        4,
+        5
+      ],
+      "aktifAylar": [
+        "Mart",
+        "Nisan",
+        "Mayıs"
+      ],
+      "aktifAralik": "Mart–Mayıs",
+      "golgeYogunlugu": {
+        "Mart": 0.32,
+        "Nisan": 0.32,
+        "Mayıs": 0.32
+      }
+    },
+    {
+      "etmen": "Bağ maymuncukları",
+      "aktifAyNo": [
+        3,
+        4,
+        5
+      ],
+      "aktifAylar": [
+        "Mart",
+        "Nisan",
+        "Mayıs"
+      ],
+      "aktifAralik": "Mart–Mayıs",
+      "golgeYogunlugu": {
+        "Mart": 0.76,
+        "Nisan": 0.77,
+        "Mayıs": 0.43
+      }
+    },
+    {
+      "etmen": "Bağda thripsler",
+      "aktifAyNo": [
+        3,
+        4,
+        5
+      ],
+      "aktifAylar": [
+        "Mart",
+        "Nisan",
+        "Mayıs"
+      ],
+      "aktifAralik": "Mart–Mayıs",
+      "golgeYogunlugu": {
+        "Mart": 0.99,
+        "Nisan": 1.0,
+        "Mayıs": 0.88
+      }
+    },
+    {
+      "etmen": "Bağ yaprakuyuzu",
+      "aktifAyNo": [
+        3,
+        4,
+        5
+      ],
+      "aktifAylar": [
+        "Mart",
+        "Nisan",
+        "Mayıs"
+      ],
+      "aktifAralik": "Mart–Mayıs",
+      "golgeYogunlugu": {
+        "Mart": 0.32,
+        "Nisan": 0.32,
+        "Mayıs": 0.32
+      }
+    },
+    {
+      "etmen": "Bağ yaprakpireleri",
+      "aktifAyNo": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "aktifAylar": [
+        "Nisan",
+        "Mayıs",
+        "Haziran",
+        "Temmuz",
+        "Ağustos",
+        "Eylül",
+        "Ekim",
+        "Kasım"
+      ],
+      "aktifAralik": "Nisan–Kasım",
+      "golgeYogunlugu": {
+        "Nisan": 0.76,
+        "Mayıs": 0.76,
+        "Haziran": 0.76,
+        "Temmuz": 0.76,
+        "Ağustos": 0.76,
+        "Eylül": 0.76,
+        "Ekim": 0.76,
+        "Kasım": 0.76
+      }
+    },
+    {
+      "etmen": "Bağ üvezi",
+      "aktifAyNo": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "aktifAylar": [
+        "Nisan",
+        "Mayıs",
+        "Haziran",
+        "Temmuz",
+        "Ağustos",
+        "Eylül",
+        "Ekim",
+        "Kasım"
+      ],
+      "aktifAralik": "Nisan–Kasım",
+      "golgeYogunlugu": {
+        "Nisan": 0.32,
+        "Mayıs": 0.32,
+        "Haziran": 0.32,
+        "Temmuz": 0.32,
+        "Ağustos": 0.32,
+        "Eylül": 0.32,
+        "Ekim": 0.32,
+        "Kasım": 0.32
+      }
+    },
+    {
+      "etmen": "Unlubit",
+      "aktifAyNo": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "aktifAylar": [
+        "Mayıs",
+        "Haziran",
+        "Temmuz",
+        "Ağustos",
+        "Eylül"
+      ],
+      "aktifAralik": "Mayıs–Eylül",
+      "golgeYogunlugu": {
+        "Mayıs": 0.78,
+        "Haziran": 0.78,
+        "Temmuz": 0.78,
+        "Ağustos": 0.78,
+        "Eylül": 0.78
+      }
+    },
+    {
+      "etmen": "Kahverengi koşnil",
+      "aktifAyNo": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "aktifAylar": [
+        "Mayıs",
+        "Haziran",
+        "Temmuz",
+        "Ağustos",
+        "Eylül"
+      ],
+      "aktifAralik": "Mayıs–Eylül",
+      "golgeYogunlugu": {
+        "Mayıs": 0.3,
+        "Haziran": 0.3,
+        "Temmuz": 0.31,
+        "Ağustos": 0.31,
+        "Eylül": 0.31
+      }
+    },
+    {
+      "etmen": "Kök-ur nematodları",
+      "aktifAyNo": [],
+      "aktifAylar": [],
+      "aktifAralik": "—",
+      "golgeYogunlugu": {}
+    },
+    {
+      "etmen": "Kamalı nematodlar",
+      "aktifAyNo": [],
+      "aktifAylar": [],
+      "aktifAralik": "—",
+      "golgeYogunlugu": {}
+    },
+    {
+      "etmen": "Bağda Ölükol",
+      "aktifAyNo": [
+        2,
+        3,
+        4
+      ],
+      "aktifAylar": [
+        "Şubat",
+        "Mart",
+        "Nisan"
+      ],
+      "aktifAralik": "Şubat–Nisan",
+      "golgeYogunlugu": {
+        "Şubat": 0.69,
+        "Mart": 0.76,
+        "Nisan": 0.69
+      }
+    },
+    {
+      "etmen": "Bağda Kurşuni Küf",
+      "aktifAyNo": [
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10
+      ],
+      "aktifAylar": [
+        "Şubat",
+        "Mart",
+        "Nisan",
+        "Temmuz",
+        "Ağustos",
+        "Eylül",
+        "Ekim"
+      ],
+      "aktifAralik": "Şubat–Nisan + Temmuz–Ekim",
+      "golgeYogunlugu": {
+        "Şubat": 0.3,
+        "Mart": 0.32,
+        "Nisan": 0.3,
+        "Temmuz": 0.17,
+        "Ağustos": 0.76,
+        "Eylül": 0.76,
+        "Ekim": 0.76
+      }
+    },
+    {
+      "etmen": "Bağda Kav Hastalığı",
+      "aktifAyNo": [
+        8,
+        9,
+        10
+      ],
+      "aktifAylar": [
+        "Ağustos",
+        "Eylül",
+        "Ekim"
+      ],
+      "aktifAralik": "Ağustos–Ekim",
+      "golgeYogunlugu": {
+        "Ağustos": 0.32,
+        "Eylül": 0.32,
+        "Ekim": 0.32
+      }
+    },
+    {
+      "etmen": "Bağda Petri Hastalığı",
+      "aktifAyNo": [
+        7,
+        8,
+        9
+      ],
+      "aktifAylar": [
+        "Temmuz",
+        "Ağustos",
+        "Eylül"
+      ],
+      "aktifAralik": "Temmuz–Eylül",
+      "golgeYogunlugu": {
+        "Temmuz": 0.76,
+        "Ağustos": 0.76,
+        "Eylül": 0.76
+      }
+    },
+    {
+      "etmen": "Armillaria kökçürüklüğü",
+      "aktifAyNo": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "aktifAylar": [
+        "Mart",
+        "Nisan",
+        "Mayıs",
+        "Haziran",
+        "Temmuz",
+        "Ağustos",
+        "Eylül",
+        "Ekim",
+        "Kasım"
+      ],
+      "aktifAralik": "Mart–Kasım",
+      "golgeYogunlugu": {
+        "Mart": 0.76,
+        "Nisan": 0.77,
+        "Mayıs": 0.77,
+        "Haziran": 0.77,
+        "Temmuz": 0.99,
+        "Ağustos": 0.99,
+        "Eylül": 1.0,
+        "Ekim": 0.77,
+        "Kasım": 0.76
+      }
+    },
+    {
+      "etmen": "Bağda kök uru hastalığı",
+      "aktifAyNo": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "aktifAylar": [
+        "Mart",
+        "Nisan",
+        "Mayıs",
+        "Haziran",
+        "Temmuz",
+        "Ağustos",
+        "Eylül",
+        "Ekim",
+        "Kasım"
+      ],
+      "aktifAralik": "Mart–Kasım",
+      "golgeYogunlugu": {
+        "Mart": 0.3,
+        "Nisan": 0.3,
+        "Mayıs": 0.3,
+        "Haziran": 0.3,
+        "Temmuz": 0.31,
+        "Ağustos": 0.31,
+        "Eylül": 0.31,
+        "Ekim": 0.3,
+        "Kasım": 0.31
+      }
+    },
+    {
+      "etmen": "Asma kısa boğum virüsü",
+      "aktifAyNo": [
+        5,
+        6
+      ],
+      "aktifAylar": [
+        "Mayıs",
+        "Haziran"
+      ],
+      "aktifAralik": "Mayıs–Haziran",
+      "golgeYogunlugu": {
+        "Mayıs": 0.77,
+        "Haziran": 0.77
+      }
+    },
+    {
+      "etmen": "Asma yaprak kıvrılma virüsü",
+      "aktifAyNo": [
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "aktifAylar": [
+        "Mayıs",
+        "Haziran",
+        "Ağustos",
+        "Eylül",
+        "Ekim"
+      ],
+      "aktifAralik": "Mayıs–Haziran + Ağustos–Ekim",
+      "golgeYogunlugu": {
+        "Mayıs": 0.3,
+        "Haziran": 0.3,
+        "Ağustos": 0.78,
+        "Eylül": 0.78,
+        "Ekim": 0.78
+      }
+    },
+    {
+      "etmen": "Küsküt",
+      "aktifAyNo": [
+        8,
+        9,
+        10
+      ],
+      "aktifAylar": [
+        "Ağustos",
+        "Eylül",
+        "Ekim"
+      ],
+      "aktifAralik": "Ağustos–Ekim",
+      "golgeYogunlugu": {
+        "Ağustos": 0.32,
+        "Eylül": 0.32,
+        "Ekim": 0.32
+      }
+    },
+    {
+      "etmen": "Diğer yabancı otlar",
+      "aktifAyNo": [],
+      "aktifAylar": [],
+      "aktifAralik": "—",
+      "golgeYogunlugu": {}
+    }
+  ]
+}

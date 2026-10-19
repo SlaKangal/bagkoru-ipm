@@ -1,0 +1,241 @@
+{
+  "veriTuru": "temsili-referans",
+  "baglayiciDegil": true,
+  "uyari": "BU DOSYADAKİ phi (SİHA) VE maksimumUygulama DEĞERLERİ TEMSİLİDİR. FRAC/IRAC kodları ve grup adları resmi FRAC Code List / IRAC Mode of Action sınıflandırmasına dayanır ve güvenilirdir; ancak PHI (son ilaçlama–hasat aralığı), maksimum sezonluk uygulama sayısı ve tank karışımı davranışı GRUP düzeyinde değil, RUHSATLI ÜRÜN (aktif madde + formülasyon + bağ/üzüm ürünü için tescil) düzeyinde belirlenir ve ülkeden/ürün etiketinden etikete değişir. Buradaki değerler, o grup içinde sık rastlanan bir aktif madde için literatürde YAYGIN GÖRÜLEN aralıkları örneklemek amacıyla verilmiştir; Türkiye'de gerçek ruhsatlı bir uygulama için KULLANILAMAZ. Karar motoru (lib/motor.js) bu dosyayı OKUMAZ — sadece bilgi/referans amaçlıdır. Gerçek uygulamadan önce mutlaka T.C. Tarım ve Orman Bakanlığı BKÜ veri tabanı ve ürün etiketine bakılmalıdır.",
+  "kaynakNotu": "Grup kodu/adı: FRAC Code List (fungisitler) ve IRAC Mode of Action Classification (insektisitler), fungisit/insektisit direnç yönetimi için kullanılan uluslararası sınıflandırmalardır ve BağKoru'nun hastaliklar.json kartlarındaki ilacKatmani.gruplar alanlarıyla aynı kodları kullanır. PHI/maksimum uygulama sayısı burada TEMSİLİ ÖRNEK aktif maddeler için, çeşitli ülke etiketlerinde sık görülen tipik aralıklar temel alınarak verilmiştir — tek bir resmi kaynaktan alınmamıştır ve Türkiye BKÜ ruhsat verisi DEĞİLDİR.",
+  "sonGuncelleme": null,
+  "gruplar": [
+    {
+      "sistem": "FRAC", "kod": "M01", "ad": "Bakır bileşikleri",
+      "hedefEtmen": "Bağ mildiyösü (Plasmopara viticola)", "tip": "Çok bölgeli", "direncRiski": "Çok düşük",
+      "temsiliAktifMadde": { "ad": "Bakır hidroksit / bakır oksiklorür (bordo bulamacı)", "not": "Grup içinde birçok bakır formülasyonu ruhsatlıdır; bu tek bir örnektir." },
+      "tipikPhiGunAraligi": { "min": 0, "max": 3 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 6, "not": "Fitotoksisite ve bakır birikimi riskiyle sınırlı; direnç riski düşük olduğundan sayı esas olarak toksisite/kalıntı kaynaklı." },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "M03", "ad": "Ditiyokarbamatlar",
+      "hedefEtmen": "Bağ mildiyösü (Plasmopara viticola)", "tip": "Çok bölgeli", "direncRiski": "Çok düşük",
+      "temsiliAktifMadde": { "ad": "Mankozeb", "not": "Grup içinde tek örnek; başka ditiyokarbamatlar da ruhsatlı olabilir." },
+      "tipikPhiGunAraligi": { "min": 28, "max": 42 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 4, "not": "Uzun PHI nedeniyle hasada yakın dönemde kullanılmaz." },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "M04", "ad": "Ftalimidler",
+      "hedefEtmen": "Bağ mildiyösü (Plasmopara viticola)", "tip": "Çok bölgeli", "direncRiski": "Çok düşük",
+      "temsiliAktifMadde": { "ad": "Kaptan", "not": "Örnek aktif madde." },
+      "tipikPhiGunAraligi": { "min": 7, "max": 14 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 4, "not": null },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "4", "ad": "Fenilamid (asilalanin)",
+      "hedefEtmen": "Bağ mildiyösü (Plasmopara viticola)", "tip": "Tek bölgeli", "direncRiski": "YÜKSEK",
+      "temsiliAktifMadde": { "ad": "Metalaksil-M", "not": "Genellikle çok bölgeli bir partnerle (M01/M03) hazır karışım halinde ruhsatlıdır." },
+      "tipikPhiGunAraligi": { "min": 14, "max": 21 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 2, "not": "Direnç riski YÜKSEK — FRAC, sezon başına ve art arda uygulama sayısını sıkı sınırlamayı önerir; farklı MoA ile rotasyon zorunlu kabul edilir." },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "40", "ad": "CAA (karboksilik asit amid)",
+      "hedefEtmen": "Bağ mildiyösü (Plasmopara viticola)", "tip": "Tek bölgeli", "direncRiski": "Orta",
+      "temsiliAktifMadde": { "ad": "Dimetomorf / mandipropamid", "not": "İki farklı aktif madde örneği; aynı grup." },
+      "tipikPhiGunAraligi": { "min": 7, "max": 21 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 3, "not": null },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "21", "ad": "QiI (Qi inhibitörü)",
+      "hedefEtmen": "Bağ mildiyösü (Plasmopara viticola)", "tip": "Tek bölgeli", "direncRiski": "Orta",
+      "temsiliAktifMadde": { "ad": "Siazofamid", "not": "Örnek aktif madde." },
+      "tipikPhiGunAraligi": { "min": 7, "max": 14 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 3, "not": null },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "45", "ad": "QoSI",
+      "hedefEtmen": "Bağ mildiyösü (Plasmopara viticola)", "tip": "Tek bölgeli", "direncRiski": "Orta",
+      "temsiliAktifMadde": { "ad": "Amisulbrom", "not": "Örnek aktif madde." },
+      "tipikPhiGunAraligi": { "min": 14, "max": 21 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 3, "not": null },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "33/P07", "ad": "Fosfonatlar (fosforöz asit)",
+      "hedefEtmen": "Bağ mildiyösü (Plasmopara viticola)", "tip": "Konukçu savunması uyarıcı", "direncRiski": "Düşük",
+      "temsiliAktifMadde": { "ad": "Potasyum fosfonat", "not": "Örnek aktif madde." },
+      "tipikPhiGunAraligi": { "min": 0, "max": 3 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 6, "not": "Düşük toksisite ve konukçu-savunması etkisi nedeniyle sık kullanılabilir; yine de etikete bağlı kal." },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "11", "ad": "QoI / strobilurin",
+      "hedefEtmen": "Bağ mildiyösü (Plasmopara viticola)", "tip": "Tek bölgeli", "direncRiski": "YÜKSEK — direnç yaygın",
+      "temsiliAktifMadde": { "ad": "Azoksistrobin / krezoksim-metil", "not": "Aynı grup, farklı aktif madde örnekleri." },
+      "tipikPhiGunAraligi": { "min": 14, "max": 21 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 2, "not": "Direnç yaygın — FRAC art arda kullanımdan kaçınmayı ve sezonluk sayıyı 2 ile sınırlamayı önerir." },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "M02", "ad": "Kükürt (inorganik, çok bölgeli)",
+      "hedefEtmen": "Bağ küllemesi (Erysiphe necator)", "tip": "Çok bölgeli", "direncRiski": "Çok düşük",
+      "temsiliAktifMadde": { "ad": "Kükürt (WP/SC formülasyon)", "not": null },
+      "tipikPhiGunAraligi": { "min": 0, "max": 1 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 8, "not": "Sıcaklık ≥32-35°C'de fitotoksisite riski — bu, tank karışımından bağımsız ayrı bir kısıt." },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "3", "ad": "DMI / triazol (sterol biyosentez engelleyici)",
+      "hedefEtmen": "Bağ küllemesi (Erysiphe necator)", "tip": "Tek bölgeli", "direncRiski": "Orta",
+      "temsiliAktifMadde": { "ad": "Tebukonazol / myclobutanil", "not": null },
+      "tipikPhiGunAraligi": { "min": 14, "max": 21 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 3, "not": null },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "13", "ad": "Kinolin (aza-naftalen)",
+      "hedefEtmen": "Bağ küllemesi (Erysiphe necator)", "tip": "Tek bölgeli", "direncRiski": "Orta",
+      "temsiliAktifMadde": { "ad": "Kinoksifen", "not": null },
+      "tipikPhiGunAraligi": { "min": 21, "max": 28 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 3, "not": null },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "U6", "ad": "Fenil-asetamid",
+      "hedefEtmen": "Bağ küllemesi (Erysiphe necator)", "tip": "Tek bölgeli", "direncRiski": "Orta",
+      "temsiliAktifMadde": { "ad": "Siflufenamid", "not": null },
+      "tipikPhiGunAraligi": { "min": 3, "max": 14 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 3, "not": null },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "7", "ad": "SDHI (süksinat dehidrogenaz engelleyici)",
+      "hedefEtmen": "Bağ küllemesi (Erysiphe necator)", "tip": "Tek bölgeli", "direncRiski": "Orta-Yüksek",
+      "temsiliAktifMadde": { "ad": "Boskalid / fluksapiroksad", "not": null },
+      "tipikPhiGunAraligi": { "min": 7, "max": 14 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 3, "not": null },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "11", "ad": "QoI / strobilurin",
+      "hedefEtmen": "Bağ küllemesi (Erysiphe necator)", "tip": "Tek bölgeli", "direncRiski": "YÜKSEK — direnç yaygın",
+      "temsiliAktifMadde": { "ad": "Azoksistrobin / krezoksim-metil", "not": null },
+      "tipikPhiGunAraligi": { "min": 14, "max": 21 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 2, "not": "Direnç yaygın; mildiyö kartındaki aynı grupla ORTAK sezonluk kotaya dahil edilmelidir (aynı MoA, iki hedefte de kullanılıyor)." },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "BM01/BM02/NC", "ad": "Biyolojik ve doğal ürünler",
+      "hedefEtmen": "Bağ küllemesi (Erysiphe necator)", "tip": "Biyolojik", "direncRiski": "Çok düşük",
+      "temsiliAktifMadde": { "ad": "Bacillus subtilis / potasyum bikarbonat", "not": null },
+      "tipikPhiGunAraligi": { "min": 0, "max": 0 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 8, "not": "Etikete göre değişir; genelde sınırlayıcı olan direnç değil, etkinlik penceresidir." },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "9", "ad": "Anilinopirimidin",
+      "hedefEtmen": "Bağda kurşuni küf (Botrytis cinerea)", "tip": "Tek bölgeli", "direncRiski": "Orta",
+      "temsiliAktifMadde": { "ad": "Siprodinil", "not": null },
+      "tipikPhiGunAraligi": { "min": 14, "max": 21 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 2, "not": "Direnç riski nedeniyle sezonda genelde 1-2 uygulamayla sınırlı tutulur." },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "12", "ad": "Fenilpirol",
+      "hedefEtmen": "Bağda kurşuni küf (Botrytis cinerea)", "tip": "Tek bölgeli", "direncRiski": "Orta",
+      "temsiliAktifMadde": { "ad": "Fludioksonil", "not": null },
+      "tipikPhiGunAraligi": { "min": 7, "max": 14 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 2, "not": null },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "17", "ad": "Hidroksianilid",
+      "hedefEtmen": "Bağda kurşuni küf (Botrytis cinerea)", "tip": "Tek bölgeli", "direncRiski": "Orta",
+      "temsiliAktifMadde": { "ad": "Fenheksamid", "not": null },
+      "tipikPhiGunAraligi": { "min": 1, "max": 14 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 2, "not": null },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "7", "ad": "SDHI",
+      "hedefEtmen": "Bağda kurşuni küf (Botrytis cinerea)", "tip": "Tek bölgeli", "direncRiski": "Orta-Yüksek",
+      "temsiliAktifMadde": { "ad": "Boskalid", "not": "Küllemedeki 7 koduyla ortak MoA — sezonluk kota paylaşılmalı." },
+      "tipikPhiGunAraligi": { "min": 7, "max": 14 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 2, "not": null },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "2", "ad": "Dikarboksimid",
+      "hedefEtmen": "Bağda kurşuni küf (Botrytis cinerea)", "tip": "Tek bölgeli", "direncRiski": "Yüksek",
+      "temsiliAktifMadde": { "ad": "İprodion", "not": "Bazı ülkelerde ruhsatı kısıtlanmış/kaldırılmış bir gruptur — Türkiye'de geçerli ruhsat durumu BKÜ'den teyit edilmeli." },
+      "tipikPhiGunAraligi": { "min": 7, "max": 21 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 1, "not": "Yüksek direnç riski + kısıtlı ruhsat durumu nedeniyle çoğu programda sezonda en fazla 1 kez." },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "11", "ad": "QoI / strobilurin",
+      "hedefEtmen": "Bağda kurşuni küf (Botrytis cinerea)", "tip": "Tek bölgeli", "direncRiski": "YÜKSEK — direnç yaygın",
+      "temsiliAktifMadde": { "ad": "Azoksistrobin / krezoksim-metil", "not": "Mildiyö/küllemedeki 11 koduyla ortak MoA — TÜM hedeflerde birleşik sezonluk kota izlenmeli." },
+      "tipikPhiGunAraligi": { "min": 14, "max": 21 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 2, "not": null },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "FRAC", "kod": "BM02", "ad": "Biyolojik (Bacillus vb.)",
+      "hedefEtmen": "Bağda kurşuni küf (Botrytis cinerea)", "tip": "Biyolojik", "direncRiski": "Çok düşük",
+      "temsiliAktifMadde": { "ad": "Bacillus amyloliquefaciens/subtilis", "not": null },
+      "tipikPhiGunAraligi": { "min": 0, "max": 0 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 6, "not": null },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "IRAC", "kod": "11A", "ad": "Bacillus thuringiensis",
+      "hedefEtmen": "Salkım güvesi (Lobesia botrana)", "tip": "Biyolojik", "direncRiski": "Düşük",
+      "temsiliAktifMadde": { "ad": "Bacillus thuringiensis kurstaki/aizawai", "not": null },
+      "tipikPhiGunAraligi": { "min": 0, "max": 0 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 4, "not": "Larva çıkışında etkili; kısa etki süresi nedeniyle tekrar gerekebilir — sayı toksisiteden değil etkinlik penceresinden gelir." },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "IRAC", "kod": "18", "ad": "Diaçilhidrazin (kabuk değişimi hızlandırıcı, IGR)",
+      "hedefEtmen": "Salkım güvesi (Lobesia botrana)", "tip": "Seçici", "direncRiski": "Düşük-Orta",
+      "temsiliAktifMadde": { "ad": "Tebufenozid / metoksifenozid", "not": null },
+      "tipikPhiGunAraligi": { "min": 14, "max": 21 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 2, "not": null },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "IRAC", "kod": "28", "ad": "Diamid (ryanodin reseptörü modülatörü)",
+      "hedefEtmen": "Salkım güvesi (Lobesia botrana)", "tip": "Seçici", "direncRiski": "Orta",
+      "temsiliAktifMadde": { "ad": "Klorantraniliprol", "not": null },
+      "tipikPhiGunAraligi": { "min": 14, "max": 21 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 2, "not": null },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "IRAC", "kod": "5", "ad": "Spinosin",
+      "hedefEtmen": "Salkım güvesi (Lobesia botrana)", "tip": "Seçici", "direncRiski": "Orta",
+      "temsiliAktifMadde": { "ad": "Spinosad", "not": null },
+      "tipikPhiGunAraligi": { "min": 7, "max": 14 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 2, "not": null },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "IRAC", "kod": "6", "ad": "Avermektin",
+      "hedefEtmen": "Salkım güvesi (Lobesia botrana)", "tip": "Seçici", "direncRiski": "Orta",
+      "temsiliAktifMadde": { "ad": "Abamektin", "not": null },
+      "tipikPhiGunAraligi": { "min": 14, "max": 28 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 2, "not": null },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    },
+    {
+      "sistem": "IRAC", "kod": "3A", "ad": "Piretroit",
+      "hedefEtmen": "Salkım güvesi (Lobesia botrana)", "tip": "Geniş spektrumlu", "direncRiski": "Yüksek",
+      "temsiliAktifMadde": { "ad": "Deltametrin / lambda-sihalotrin", "not": null },
+      "tipikPhiGunAraligi": { "min": 3, "max": 14 },
+      "tipikMaksimumUygulamaSayisi": { "sezon": 1, "not": "Geniş spektrumlu — faydalı böcekleri de öldürür; IPM'de son çare, sezonda en fazla 1 kez önerilir." },
+      "uyari": "TEMSİLİ DEĞER — bağlayıcı değildir; ruhsatlı ürün etiketi ve BKÜ ile teyit et."
+    }
+  ]
+}

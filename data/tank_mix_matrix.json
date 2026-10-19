@@ -1,0 +1,110 @@
+{
+  "veriTuru": "temsili-referans",
+  "baglayiciDegil": true,
+  "uyari": "BU DOSYADAKİ UYUMLULUK DEĞERLENDİRMELERİ GENEL AGRONOMİK BİLGİYE DAYALI TEMSİLİ REHBER NİTELİĞİNDEDİR, RUHSATLI ÜRÜN TESTİ DEĞİLDİR. Tank karışımı uyumluluğu formülasyona (WP/SC/EC/SL vb.), su kalitesine (pH, sertlik) ve marka bazlı katkı maddelerine göre değişir; aynı FRAC/IRAC grubundaki farklı ürünler farklı davranabilir. Karar motoru (lib/motor.js) bu dosyayı OKUMAZ. Gerçek bir karışım yapmadan önce MUTLAKA: (1) ürün etiketindeki 'tank karışımı' bölümüne bak, (2) küçük hacimde kavanoz testi (jar test) yap, (3) BKÜ'den ilgili ürünlerin ortak ruhsatlı olup olmadığını doğrula. Burada 'uyumlu' denmesi resmi bir onay değildir.",
+  "kaynakNotu": "Kurallar; bakır+yağ, kükürt+yağ, bakır+biyolojik ajan gibi bitki koruma literatüründe YAYGIN OLARAK bilinen genel fitotoksisite/etkinlik etkileşimlerine dayanır. Grup kodları bku_groups.json ve hastaliklar.json ile aynıdır.",
+  "durumTanimlari": {
+    "uyumlu": "Genel bilgiye göre birlikte kullanımı yaygın ve genelde sorunsuzdur; yine de etiket ve kavanoz testi esastır.",
+    "dikkatli": "Birlikte kullanılabilir ama koşula bağlı bir risk vardır (sıcaklık, doz, uygulama sırası); azaltıcı önlemle mümkündür.",
+    "kacinilmali": "Bilinen fitotoksisite, etkinlik kaybı veya fiziksel uyumsuzluk riski yüksektir; ayrı uygulama önerilir.",
+    "test-et": "Genel bir kural yok / formülasyona göre çok değişir; sadece kavanoz testiyle karar verilmeli."
+  },
+  "genelKurallar": [
+    "Kavanoz testi sırası: su → ıslatıcı/yapışkan hariç ürünler tek tek eklenir, her ekleme sonrası çalkalanır; topaklanma, çökelme, ısınma, köpük veya faz ayrışması varsa karışıma girilmez.",
+    "Sıcak (>28-30°C) ve kurak havada yağ, kükürt ve bakır içeren karışımlardan kaçının — fitotoksisite riski birlikte artar.",
+    "Biyolojik ajanlar (Bt, Bacillus, Trichoderma vb.) canlı organizma içerir; güçlü oksitleyici/biyosit özellikli ürünlerle (bakır, bazı dezenfektanlar) karıştırılmadan önce üreticiye danışılmalı.",
+    "Asit gübreler (yaprak gübresi vb.) ile alkali karakterli ürünler (bazı bakır formülasyonları) karışımda pH kaymasına ve etkinlik kaybına yol açabilir.",
+    "İki ürün de aynı FRAC/IRAC grubundaysa 'karışım uyumu' değil DİRENÇ YÖNETİMİ sorunudur — bu dosya yalnızca fiziksel/biyolojik karışım riskini değerlendirir, direnç kotasını değerlendirmez (bkz. direnc_kurallari.json: etmenler[slug].gruplar[kod].sezonLimiti)."
+  ],
+  "genelKategoriler": [
+    { "kategori": "genel", "ad": "Mineral/bitkisel yağlar (yazlık yağ, neem yağı vb.)" },
+    { "kategori": "genel", "ad": "Yapışkan / yayıcı (ıslatıcı) maddeler" },
+    { "kategori": "genel", "ad": "Yaprak gübresi (asit karakterli mikro element)" }
+  ],
+  "kurallar": [
+    {
+      "a": { "sistem": "FRAC", "kod": "M01", "ad": "Bakır bileşikleri" },
+      "b": { "sistem": "genel", "ad": "Mineral/bitkisel yağlar" },
+      "durum": "kacinilmali",
+      "gerekce": "Bakır + yağ kombinasyonu, özellikle sıcak havada yaprak yanığı (fitotoksisite) riskini belirgin artırır — yaygın bilinen bir agronomik uyarıdır."
+    },
+    {
+      "a": { "sistem": "FRAC", "kod": "M02", "ad": "Kükürt" },
+      "b": { "sistem": "genel", "ad": "Mineral/bitkisel yağlar" },
+      "durum": "kacinilmali",
+      "gerekce": "Kükürt + yağ karışımı sıcak havada (özellikle >28-30°C) ciddi fitotoksisiteye yol açabilir; iki uygulama arasında en az 10-14 gün bırakılması yaygın tavsiyedir."
+    },
+    {
+      "a": { "sistem": "FRAC", "kod": "M01", "ad": "Bakır bileşikleri" },
+      "b": { "sistem": "FRAC", "kod": "M02", "ad": "Kükürt" },
+      "durum": "dikkatli",
+      "gerekce": "Birlikte kullanım bazı bölgelerde yapılır ama sıcak havada birleşik fitotoksisite riski artar; serin/bulutlu günde ve düşük dozla tercih edilmeli."
+    },
+    {
+      "a": { "sistem": "IRAC", "kod": "11A", "ad": "Bacillus thuringiensis" },
+      "b": { "sistem": "FRAC", "kod": "M01", "ad": "Bakır bileşikleri" },
+      "durum": "dikkatli",
+      "gerekce": "Bakırın antimikrobiyal etkisi Bt formülasyonundaki canlı spor/kristal proteinin etkinliğini düşürebilir; ayrı uygulama veya en az birkaç saat ara tercih edilmeli."
+    },
+    {
+      "a": { "sistem": "FRAC", "kod": "BM01/BM02/NC", "ad": "Biyolojik ve doğal ürünler (külleme)" },
+      "b": { "sistem": "FRAC", "kod": "M01", "ad": "Bakır bileşikleri" },
+      "durum": "dikkatli",
+      "gerekce": "Canlı mikroorganizma içeren biyolojik ürünler, bakırın biyosit etkisinden olumsuz etkilenebilir."
+    },
+    {
+      "a": { "sistem": "FRAC", "kod": "BM02", "ad": "Biyolojik (Bacillus vb. — kurşuni küf)" },
+      "b": { "sistem": "FRAC", "kod": "M01", "ad": "Bakır bileşikleri" },
+      "durum": "dikkatli",
+      "gerekce": "Aynı gerekçe: canlı Bacillus formülasyonları bakırla birlikte etkinlik kaybedebilir."
+    },
+    {
+      "a": { "sistem": "FRAC", "kod": "33/P07", "ad": "Fosfonatlar (fosforöz asit)" },
+      "b": { "sistem": "genel", "ad": "Mineral/bitkisel yağlar" },
+      "durum": "uyumlu",
+      "gerekce": "Fosfonatlar genelde geniş bir ürün yelpazesiyle tank-karışım-dostu kabul edilir; yine de kavanoz testi önerilir."
+    },
+    {
+      "a": { "sistem": "FRAC", "kod": "40", "ad": "CAA (karboksilik asit amid)" },
+      "b": { "sistem": "FRAC", "kod": "M03", "ad": "Ditiyokarbamatlar" },
+      "durum": "uyumlu",
+      "gerekce": "Bu iki grup, mildiyö programlarında sık sık hazır karışım (premix) olarak da ruhsatlandırılır; genel fiziksel uyum iyi bilinir."
+    },
+    {
+      "a": { "sistem": "FRAC", "kod": "11", "ad": "QoI / strobilurin" },
+      "b": { "sistem": "FRAC", "kod": "3", "ad": "DMI / triazol" },
+      "durum": "uyumlu",
+      "gerekce": "Direnç yönetimi programlarında sık birlikte/rotasyonla kullanılan, fiziksel olarak genelde uyumlu iki gruptur."
+    },
+    {
+      "a": { "sistem": "FRAC", "kod": "2", "ad": "Dikarboksimid" },
+      "b": { "sistem": "FRAC", "kod": "M01", "ad": "Bakır bileşikleri" },
+      "durum": "test-et",
+      "gerekce": "Formülasyona bağlı fiziksel uyumsuzluk (çökelme) bildirimleri vardır; genel bir kural verilemez, kavanoz testi zorunlu."
+    },
+    {
+      "a": { "sistem": "IRAC", "kod": "3A", "ad": "Piretroit" },
+      "b": { "sistem": "genel", "ad": "Yapışkan / yayıcı maddeler" },
+      "durum": "dikkatli",
+      "gerekce": "Fiziksel karışım genelde sorunsuzdur, ANCAK piretroitler geniş spektrumlu olup faydalı böcek/akarları da öldürür — IPM açısından karışıma girmeden önce eşik ve zamanlama ayrıca değerlendirilmeli (bu bir 'IPM uyumu' uyarısıdır, fiziksel karışım uyarısı değildir)."
+    },
+    {
+      "a": { "sistem": "genel", "ad": "Yaprak gübresi (asit karakterli mikro element)" },
+      "b": { "sistem": "FRAC", "kod": "M01", "ad": "Bakır bileşikleri" },
+      "durum": "test-et",
+      "gerekce": "Asit gübre ile bazı bakır formülasyonları arasında pH kaymasına bağlı çökelme/etkinlik kaybı görülebilir; ürüne özgü kavanoz testi gerekir."
+    },
+    {
+      "a": { "sistem": "IRAC", "kod": "18", "ad": "Diaçilhidrazin (IGR)" },
+      "b": { "sistem": "FRAC", "kod": "11", "ad": "QoI / strobilurin" },
+      "durum": "uyumlu",
+      "gerekce": "Farklı hedef organizma (böcek/mantar) ve farklı kimyasal sınıf; genel pratikte fiziksel uyumsuzluk bildirilmemiştir."
+    },
+    {
+      "a": { "sistem": "IRAC", "kod": "5", "ad": "Spinosin" },
+      "b": { "sistem": "FRAC", "kod": "M02", "ad": "Kükürt" },
+      "durum": "dikkatli",
+      "gerekce": "Bazı spinosin etiketleri yakın zamanlı kükürt uygulamalarıyla artan fitotoksisite riskine karşı uyarı içerir; araya birkaç gün koymak yaygın tavsiyedir."
+    }
+  ]
+}
